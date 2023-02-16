@@ -1,0 +1,6 @@
+module Pods_masjidApp {
+  umbrella header "Pods-masjidApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

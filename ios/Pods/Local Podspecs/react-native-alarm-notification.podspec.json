@@ -1,0 +1,28 @@
+{
+  "name": "react-native-alarm-notification",
+  "version": "1.8.0",
+  "summary": "schedule alarm with notification in react-native",
+  "description": "react-native-alarm-notification",
+  "homepage": "https://github.com/emekalites/react-native-alarm-notification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Chukwuemeka Ihedoro": "caihedoro@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/emekalites/react-native-alarm-notification.git",
+    "tag": "1.8.0"
+  },
+  "source_files": "ios/**/*.{h,c,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

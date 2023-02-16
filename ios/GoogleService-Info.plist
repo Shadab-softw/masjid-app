@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>530539756345-cbnrj3ssgdvhutl6e546sfian3ff02n8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.530539756345-cbnrj3ssgdvhutl6e546sfian3ff02n8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDgHpVt7he-4uQB9DMf5qP-TGTQ5R71pgU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>530539756345</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.masjidapp</string>
+	<key>PROJECT_ID</key>
+	<string>masjidapp-e94a1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>masjidapp-e94a1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:530539756345:ios:f8ddc50f822214725dc6e8</string>
+</dict>
+</plist>

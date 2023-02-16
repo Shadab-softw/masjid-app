@@ -1,0 +1,6 @@
+module Pods_masjidApp_masjidAppTests {
+  umbrella header "Pods-masjidApp-masjidAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

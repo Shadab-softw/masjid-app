@@ -1,0 +1,8 @@
++ react-dom@17.0.2
+added 11 packages from 2 contributors, removed 4 packages, updated 1 package and audited 1162 packages in 13.868s
+
+83 packages are looking for funding
+  run `npm fund` for details
+
+found 4 moderate severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details

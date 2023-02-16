@@ -1,0 +1,25 @@
+{
+  "name": "react-native-compass-heading",
+  "version": "1.2.1",
+  "summary": "Listener to device's compass information.",
+  "description": "react-native-compass-heading",
+  "homepage": "https://github.com/firofame/react-native-compass-heading",
+  "license": "MIT",
+  "authors": {
+    "Your Name": "firofame@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/firofame/react-native-compass-heading.git",
+    "tag": "1.2.1"
+  },
+  "source_files": "ios/**/*.{h,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

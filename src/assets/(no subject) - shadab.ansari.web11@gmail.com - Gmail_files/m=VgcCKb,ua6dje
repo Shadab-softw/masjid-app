@@ -1,0 +1,31 @@
+/* _GlobalPrefix_ */
+"use strict";/*_JS*/
+this._m=this._m||{};(function(_){var window=this;
+/*_M:VgcCKb*/
+try{
+_.x("VgcCKb");
+
+var U6l,X6l,V6l,W6l,T6l,a7l;U6l=function(a){var b=!1;b=void 0===b?!1:b;if(!_.$o.indexedDB)return Promise.resolve();var c=T6l.map(function(d){var e=a+d;return new Promise(function(f,h){try{var k=_.$o.indexedDB.deleteDatabase(e);b?f():k.onsuccess=f;k.onerror=function(n){h(Error("iwa`"+e+"`"+n))}}catch(n){h(n)}})});return Promise.all(c).then(_.m())};X6l=function(a){var b=V6l(),c=new _.Fq(_.Aeb);_.gr(c,"csdr",String(a));return Promise.resolve(_.$o.fetch(c.toString(),{credentials:_.Mwa})).then(function(){W6l(b)})};
+V6l=function(){for(var a=new Map,b=0;b<window.localStorage.length;b++){var c=window.localStorage.key(b);if(null!=c&&!c.startsWith("webOffline_btdSchemaVersion")){var d=_.$o.localStorage.getItem(c);a.set(c,d)}}return a};W6l=function(a){a.forEach(function(b,c){return _.$o.localStorage.setItem(c,b)})};T6l=[_.w6d,"_xdb",_.bEe,_.cEe,_.K9f,_.kCe,_.Soa,"_docid"];_.Y6l=function(a){_.xI.call(this,a.hc);this.ha=a.Cb.yf;this.oa=a.Cb.features.Yf().isActive(7733)};_.F(_.Y6l,_.xI);_.Y6l.Rb=_.xI.Rb;
+_.Y6l.Pb=function(){return{Cb:{features:_.ug,yf:_.rr}}};_.$6l=function(a){_.$o.localStorage.removeItem(_.gEa+a);return Promise.all([U6l(a),_.Z6l(a)]).then(_.m())};a7l=function(a){return Promise.resolve(a.Ra().Ac(_.xG)).then(function(b){return b.ha.Ha()}).then(function(b){return _.Ggf(b,((0,_.Wv)(),_.$v))}).then(function(){return _.$6l(_.xt)})};_.Y6l.prototype.Vba=function(a){var b=this;return(this.oa&&_.sr.Do&&(0,_.sr.Yp)(78)?a7l(this):X6l(a)).catch(function(c){b.ha.ha(_.hAb);return Promise.reject(c)})};
+_.Z6l=function(a){a=void 0===a?_.xt:a;return _.$o.caches?_.$o.caches.delete(a+_.J9f).then(_.m(),_.u(null)):Promise.resolve()};_.yI(_.Xic,_.Y6l);
+
+_.y();
+
+}catch(e){_._DumpException(e)}
+/*_M:ua6dje*/
+try{
+_.x("ua6dje");
+
+var b7l=function(a,b){return _.K5l(a).then(function(c){return new Promise(function(d,e){var f=c.transaction([_.D5l],_.Pl).objectStore(_.D5l).delete(b);f.onsuccess=function(){return d()};f.onerror=function(h){return e(h)}})}).then(function(){return Promise.resolve()},function(){return Promise.reject()})},c7l=function(a){_.xI.call(this,a.hc);this.oa=a.Cb.yf;this.ha=a.service.wnd;this.Aa=a.service.jrb;this.Ca=a.Cb.features.Yf().isActive(7662);this.Ba=a.Cb.features.Yf().isActive(7733)};_.F(c7l,_.xI);
+c7l.Rb=_.xI.Rb;c7l.Pb=function(){return{Cb:{features:_.ug,yf:_.rr},service:{jrb:_.Y6l,wnd:_.F5l}}};c7l.prototype.Izd=function(){return _.$o.indexedDB&&_.mCe(this.Ca)?this.Ba&&_.sr.Do&&_.sr.Yp(78)?d7l(this):e7l(this):Promise.resolve()};
+var d7l=function(a){return _.M5l(a.ha).then(function(b){return b?Promise.all(b.map(function(c){return 2592E6>Date.now()-c.qTa||c.DF==_.xt?Promise.resolve():f7l(a,c.DF)})):Promise.resolve()}).then(function(){return g7l(a)})},g7l=function(a){return _.WRa?_.Dq()?_.AEe()?Promise.resolve():_.Z6l():h7l(a).then(function(b){if(b)return f7l(a,_.xt)}):(_.E5l(),Promise.resolve())},f7l=function(a,b){return _.$6l(b).then(function(){return b7l(a.ha,b)}).then(function(){a.oa.ha(_.xAb)}).catch(function(){a.oa.ha(_.zAb)})},
+e7l=function(a){if(!_.WRa)return _.E5l(),Promise.resolve();var b=[i7l(a)];_.Dq()?_.AEe()||b.push(_.Z6l()):b.push(h7l(a).then(function(c){c&&j7l(a)}));return Promise.all(b).then(_.m())},i7l=function(a){return _.Dq()?Promise.resolve():_.M5l(a.ha).then(function(b){if(0<b.length&&b.every(function(c){return 2592E6<Date.now()-c.qTa&&c.DF!=_.xt}))return a.Aa.Vba(6).then(function(){a.oa.ha(_.wAb)}).catch(function(){a.oa.ha(_.yAb)})})},j7l=function(a){a.Aa.Vba(1).then(function(){return b7l(a.ha,_.xt)}).catch(_.m())},
+h7l=function(a){return _.J5l(a.ha).then(function(b){return null!=b?Promise.resolve(!0):a.wa()})};c7l.prototype.wa=function(){var a=[_.Soa,"_docid",_.kCe,_.w6d,_.bEe,_.K9f,_.cEe,"_xdb"].map(function(b){var c=_.xt+b;return new Promise(function(d){var e=indexedDB.open(c);e.onupgradeneeded=function(f){f.target.transaction.abort();d(!1)};e.onsuccess=function(){d(!0)};e.onerror=function(){d(!1)}})});return _.$p.all(a).then(function(b){return b.includes(!0)})};_.yI(_.Uie,c7l);
+
+_.y();
+
+}catch(e){_._DumpException(e)}
+/* _GlobalSuffix_ */
+}).call(this,this._m);
+// Google Inc.
