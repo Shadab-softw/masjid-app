@@ -88,10 +88,9 @@ const QuranTransScreen = ({ route, navigation }) => {
   const isFocused = useIsFocused()
 
   useEffect(() => {
-    setupIfNecessary()
+    setupIfNecessary();
     fetchChapter();
-
-  }, [])
+  }, [pageCurrent + 1])
 
   useEffect(async () => {
     if (isFocused) {
@@ -99,6 +98,7 @@ const QuranTransScreen = ({ route, navigation }) => {
     } else {
       await TrackPlayer.stop();
     }
+   
   }, [isFocused])
   useTrackPlayerEvents([Event.PlaybackTrackChanged], async event => {
     console.log("event", event)
@@ -115,13 +115,10 @@ const QuranTransScreen = ({ route, navigation }) => {
   });
   const fetchChapter = async () => {
     try {
-
       const response = await fetch(`https://api.quran.com/api/v3/chapters/${item.id}/verses?recitation=1&translations=21&language=en&page=${pageCurrent}&text_type=words`);
       const responseJson = await response.json();
       if (chapter.length !== responseJson.pagination.total_count) {
         let chapterArr = [];
-
-
         setChapter(chapter.concat(responseJson.verses));
 
         responseJson.verses.map((item) => {
@@ -230,9 +227,6 @@ const QuranTransScreen = ({ route, navigation }) => {
 
     await TrackPlayer.play()
     setIsPlaying(true)
-
-
-
   }
 
   const onPauseAudio = async () => {
@@ -244,7 +238,6 @@ const QuranTransScreen = ({ route, navigation }) => {
   const renderChapter = ({ item, index }) => {
     return (
       <>
-
         <View
           key={item.id}
           style={{
@@ -253,7 +246,6 @@ const QuranTransScreen = ({ route, navigation }) => {
             marginVertical: 10,
             borderRadius: 10,
             paddingHorizontal: 10,
-
             // overflow:'hidden'
           }}>
           <View style={{ justifyContent: 'space-between', flexDirection: 'row' }}>
@@ -344,18 +336,19 @@ const QuranTransScreen = ({ route, navigation }) => {
 
   }
 
-
   const renderFooter = () => {
     return isEndLoading ? (
       <View>
         <ActivityIndicator
           style={{ marginBottom: 230 }}
-          color="#bc2b78"
+          color='#A7C829'
           size="large"
         />
       </View>
     ) : null;
   };
+
+
 
   const handleLoadMore = () => {
     if (!isListEnd) {
@@ -365,8 +358,6 @@ const QuranTransScreen = ({ route, navigation }) => {
         fetchChapter()
       }, 1000)
     }
-
-
 
   }
 
@@ -426,17 +417,14 @@ const QuranTransScreen = ({ route, navigation }) => {
       </View>
 
       <FlatList
-        style={{ paddingHorizontal: 25, paddingBottom: 500 }}
+        style={{ paddingHorizontal: 25, }}
         data={chapter}
         keyExtractor={(item) => item.id}
         renderItem={renderChapter}
         ListFooterComponent={renderFooter}
         onEndReached={handleLoadMore}
         onEndReachedThreshold={0}
-
       />
-
-
 
       <View style={{ width: "100%", zIndex: 1, backgroundColor: '#000', position: 'absolute', bottom: '16%', justifyContent: 'center', alignItems: 'center', paddingVertical: 18 }}>
         <Slider
@@ -459,7 +447,6 @@ const QuranTransScreen = ({ route, navigation }) => {
             {new Date(progress.position * 1000).toISOString().substr(14, 5)}
           </Text>
           <Text style={{ color: '#ccc' }}>
-            {/* {new Date(progress.duration*1000).toISOString().substr(14, 5)} */}
             {new Date((progress.duration - progress.position) * 1000)
               .toISOString()
               .substr(14, 5)}
@@ -477,17 +464,13 @@ const QuranTransScreen = ({ route, navigation }) => {
             <Ionicons name="play-skip-forward-outline" size={35} color={'#FFFF'} />
           </TouchableOpacity>
         </View>
-
       </View>
-
-
     </ImageBackground>
   );
 
 };
 
 export default QuranTransScreen;
-
 
 const styles = StyleSheet.create({
   container: {
