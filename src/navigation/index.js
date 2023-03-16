@@ -245,7 +245,7 @@ function MyTabs() {
       />
       <Tab.Screen name="dashboard" component={DashBoardScreen} />
       <Tab.Screen name="event" component={EventScreen} />
-      <Tab.Screen name="prayer" component={PrayerScreen} />
+      <Tab.Screen name="Prayer Timings" component={PrayerScreen} />
 
       <Tab.Screen
         name="more"

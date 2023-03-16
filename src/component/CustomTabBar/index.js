@@ -109,11 +109,11 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
         } else if (route.name === 'dashboard') {
           Icon = CONSTANT.App.staticImages.dashboard;
           tabLable = 'Donate';
-        } else if (route.name === 'prayer') {
+        } else if (route.name === 'Prayer Timings') {
           Icon = isFocused
             ? CONSTANT.App.staticImages.prayerA
             : CONSTANT.App.staticImages.prayer;
-          tabLable = 'Prayer';
+          tabLable = 'Prayer Timings';
         } else if (route.name === 'event') {
           Icon = isFocused
             ? CONSTANT.App.staticImages.eventsA
@@ -196,7 +196,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
           } else if (route.name === 'dashboard') {
             {/* navigation.navigate(CONSTANT.App.tabMenu.dashTab); */}
              Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB');
-          } else if (route.name === 'prayer') {
+          } else if (route.name === 'Prayer Timings') {
             return navigation.navigate(CONSTANT.App.tabMenu.prayerTab);
           } else if (route.name === 'event') {
             return navigation.navigate(CONSTANT.App.tabMenu.eventTab, {
@@ -267,7 +267,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
             target: route.key,
           });
         };
-{/* {profileimg} */}
+// {/* {profileimg} */}
         if(tabLable == "imamAsk" || tabLable == "service" || tabLable == "new_Muslim" || tabLable == "weekend_School" || tabLable == 'marriage_Service' || tabLable == 'ramdan_Service' || tabLable == 'funeral_Service' || tabLable == 'news_letter' || tabLable == 'general' || tabLable == 'consult_tab'){
           return (null);
         } else{
@@ -294,7 +294,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
               }}
             />
             <Text
-              style={{color: isFocused ? '#A7C829' : '#9D9D9D', fontSize: 12}}>
+              style={{color: isFocused ? '#A7C829' : '#9D9D9D', fontSize: 12,textAlign:'center'}}>
               {tabLable}
             </Text>
           </TouchableOpacity>
