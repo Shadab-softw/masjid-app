@@ -183,7 +183,7 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
     <>
       <View style={[styles.calender, textDesign]}>
         <View style={styles.rowData}>
-          <Text style={{ fontSize: 15, color: '#9D9D9D' }}>Namaz</Text>
+          <Text style={{ fontSize: 15, color: '#9D9D9D' }}>Salaah</Text>
           <Text style={{ fontSize: 15, color: '#9D9D9D' }}>Athaan Time</Text>
         </View>
         <View style={styles.horizoLine} />
@@ -196,7 +196,7 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
             {localPrayerTime.fajr_azaan_time}
           </Text>
         </View>
-        <View style={styles.rowData}>
+        {/* <View style={styles.rowData}>
           <Text style={{ color: 'white', fontSize: 15, marginRight: 20 }}>
             Sunrise
             <Feather
@@ -211,7 +211,7 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
             />
           </Text>
           <Text style={styles.calanderText}>{todaySalah?.Sunrise}</Text>
-        </View>
+        </View> */}
         <View style={styles.rowData}>
           {/* '#A7C829' */}
           <Text style={{ fontSize: 16, color: '#fff' }}>Dhuhr</Text>
@@ -248,11 +248,10 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
           </Text>
         </View>
         <View style={styles.horizoLine} />
-        <View style={[styles.rowData, { marginBottom: 15 }]}>
+        {/* <View style={[styles.rowData, { marginBottom: 15 }]}>
           <Text style={styles.calanderText}>Sunset</Text>
           <Text style={styles.calanderText}>{todaySalah?.Sunset}</Text>
-
-        </View>
+        </View> */}
       </View>
     </>
 
@@ -305,7 +304,7 @@ const styles = StyleSheet.create({
   },
   calender: {
     width: '100%',
-    height: 400,
+    height: 300,
     marginTop: 10,
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
     padding: 10,

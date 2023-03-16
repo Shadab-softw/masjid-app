@@ -47,10 +47,7 @@ const BookDetailsScreen = ({ route, navigation }) => {
         },
       );
       let responseJson = await response.json();
-      console.log('detail>>', responseJson.data);
       setData(responseJson.data);
-
-      console.log('datacheck>', data);
       return responseJson;
     } catch (error) {
       console.error(error);

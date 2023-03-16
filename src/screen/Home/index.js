@@ -223,8 +223,6 @@ const HomeScreen = ({ navigation }) => {
     getPostServices();
   }, []);
 
-
-
   const toggleOverlay = () => {
     setVisible(!visible);
   };
@@ -315,144 +313,13 @@ const HomeScreen = ({ navigation }) => {
       <ScrollView showsVerticalScrollIndicator={false} style={{ marginTop: 10 }}>
         <View style={{ padding: 10 }}>
           <HijriDate />
-          <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
-            <Text style={styles.text}>Verse of the day</Text>
-          </View>
-          <View style={styles.verseCard}>
-            <Text
-              style={{
-                color: '#fff',
-                fontSize: 17,
-                // width: '100%',
-                // fontWeight: '300',
-                lineHeight: 20,
-                // fontStyle: 'normal',
-                // top: 10,
-              }}>
-              {/* {verseData?.eng_verse} */}
-
-
-            </Text>
-            <Text
-              style={{
-                color: '#9D9D9D',
-                top: 10,
-                fontSize: 17,
-                // fontWeight: '500',
-                lineHeight: 17,
-              }}>
-              {/* {verseData?.eng_title} */}
-
-            </Text>
-            <ReadMoreComp />
-            <View
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                top: 20,
-                marginBottom: 10,
-              }}>
-              <View style={{ display: 'flex', flexDirection: 'row' }}>
-                <TouchableOpacity onPress={play ? onStop : onPlay}>
-                  {play ? (
-                    <Ionicons
-                      name="volume-high-outline"
-                      style={{ fontSize: 25, color: '#a7c829' }}
-                    />
-                  ) : (
-                    <Ionicons
-                      name="volume-mute-outline"
-                      style={{ fontSize: 25, color: '#a7c829' }}
-                    />
-                  )}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={play ? onStop : onPlay}>
-                  <Text
-                    style={{
-                      color: '#a7c829',
-                      left: 5,
-                      width: 70,
-                      fontSize: 17,
-                    }}>
-                    Listen
-                  </Text>
-                </TouchableOpacity>
-              </View>
-              <View>
-                <TouchableOpacity style={styles.box1} onPress={myCustomShare}>
-                  <AntDesign name="sharealt" size={22} color="#a7c829" />
-                </TouchableOpacity>
-              </View>
-            </View>
-
-          </View>
-
-          <View
-            style={{
-              marginTop: 20,
-              marginRight: 3,
-              overflow: 'hidden',
-            }}>
-            <BannerImgComp />
-
-            <View style={{ height: 110, marginTop: 25, marginLeft: -5 }}>
-              <ScrollView
-                horizontal={true}
-                showsHorizontalScrollIndicator={false}>
-                {Data.map(item => {
-                  return (
-                    <View key={item.id}>
-                      <TouchableOpacity
-                        onPress={() => handleTabMenu(item.name, item.screenNAme)}
-                        style={{
-                          width: 55,
-                          height: 55,
-                          backgroundColor: item.bgColor,
-                          borderRadius: 20,
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          left: 10,
-                          marginLeft: 3,
-                          //   marginTop: '-10%',
-                        }}
-                        key={item.id}>
-                        <Icon
-                          name={item.Icon_Name}
-                          type={item.type}
-                          size={22}
-                          color="#FFFFFF"
-                        />
-                      </TouchableOpacity>
-                      <View
-                        style={{
-                          width: 70,
-                          marginTop: 5,
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          marginLeft: 3,
-                        }}>
-                        <Text style={{
-                          color: '#FFFFFF',
-                          // fontWeight: '400'
-                        }}>
-                          {/* {item.name} */}
-                        </Text>
-                      </View>
-                    </View>
-                  );
-                })}
-              </ScrollView>
-            </View>
-
-          </View>
           <View
             style={{
               width: '100%',
               height: 140,
               borderRadius: 15,
               padding: 10,
-              marginTop: 12,
+              marginTop: 25,
               backgroundColor: 'rgba(255, 255, 255, 0.2)',
             }}>
             <View
@@ -470,10 +337,8 @@ const HomeScreen = ({ navigation }) => {
               <Text
                 style={{
                   fontSize: 20,
-                  // fontWeight: '500',
                   lineHeight: 19,
                   color: '#A7C829',
-                  // bottom: 3,
                   left: 4,
                   width: '100%',
                 }}>
@@ -487,7 +352,6 @@ const HomeScreen = ({ navigation }) => {
                     top: 75,
                     textAlign: 'right',
                     color: '#A8C829',
-                    // fontWeight: '700',
                     fontSize: 18,
                     height: 17,
                     right: 10,
@@ -501,10 +365,7 @@ const HomeScreen = ({ navigation }) => {
                     <Text
                       style={{
                         color: '#A8C829',
-                        // fontWeight: '600',
                         fontSize: 16,
-                        // bottom: 10,
-                        // height: 17,
                       }}>
                       See All
                     </Text>
@@ -594,75 +455,145 @@ const HomeScreen = ({ navigation }) => {
               }
             </View>
           </View>
-
           <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
-            <Text style={styles.text}>Today's - Salah Time</Text>
-            <TouchableOpacity
-              onPress={() =>
-                navigation.navigate(CONSTANT.App.tabMenu.prayerTab, {
-                  currentLatitude,
-                  currentLongitude,
-                  currentMonth,
-                  setCurrentMonth,
-                })
-              }>
-              <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
-            </TouchableOpacity>
+            <Text style={styles.text}>Verse of the day</Text>
           </View>
-
-          <PrayerTimeComp
-            currentLatitude={currentLatitude}
-            currentLongitude={currentLongitude}
-            currentMonth={currentMonth}
-          />
-
-          <View style={{ marginTop: 20, marginLeft: 10 }}>
+          <View style={styles.verseCard}>
             <Text
               style={{
-                fontSize: 24,
-                // fontWeight: '800',
-                lineHeight: 4,
-                color: '#ffff',
-                paddingTop: 25,
-
-                // top: '4%',
+                color: '#fff',
+                fontSize: 17,
+                // width: '100%',
+                // fontWeight: '300',
+                lineHeight: 20,
+                // fontStyle: 'normal',
+                // top: 10,
               }}>
-              Donate Us
+              {/* {verseData?.eng_verse} */}
+
             </Text>
-          </View>
-          <View style={{ marginTop: 5 }}>
             <Text
               style={{
                 color: '#9D9D9D',
-                alignItems: 'stretch',
-                fontSize: 14,
+                top: 10,
+                fontSize: 17,
+                // fontWeight: '500',
                 lineHeight: 17,
-                marginLeft: 10,
-                marginBottom: 20,
               }}>
-              Lorem Ipsum is simply dummy text of the printing
+              {verseData?.eng_title}
+
             </Text>
+            <ReadMoreComp />
+            <View
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                top: 20,
+                marginBottom: 10,
+              }}>
+              <View style={{ display: 'flex', flexDirection: 'row' }}>
+                <TouchableOpacity onPress={play ? onStop : onPlay}>
+                  {play ? (
+                    <Ionicons
+                      name="volume-high-outline"
+                      style={{ fontSize: 25, color: '#a7c829' }}
+                    />
+                  ) : (
+                    <Ionicons
+                      name="volume-mute-outline"
+                      style={{ fontSize: 25, color: '#a7c829' }}
+                    />
+                  )}
+                </TouchableOpacity>
+                <TouchableOpacity onPress={play ? onStop : onPlay}>
+                  <Text
+                    style={{
+                      color: '#a7c829',
+                      left: 5,
+                      width: 70,
+                      fontSize: 17,
+                    }}>
+                    Listen
+                  </Text>
+                </TouchableOpacity>
+              </View>
+              <View>
+                <TouchableOpacity style={styles.box1} onPress={myCustomShare}>
+                  <AntDesign name="sharealt" size={22} color="#a7c829" />
+                </TouchableOpacity>
+              </View>
+            </View>
+
           </View>
 
-          <CustomButton
-            variant={'filled'}
-            title={'Donate now'}
-            style={{ marginTop: -6 }}
-            onPress={() => Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB')}
-          />
+          <View
+            style={{
+              marginTop: 20,
+              marginRight: 3,
+              overflow: 'hidden',
+            }}>
+            <BannerImgComp />
+
+            {/* <View style={{ height: 110, marginTop: 25, marginLeft: -5 }}>
+              <ScrollView
+                horizontal={true}
+                showsHorizontalScrollIndicator={false}>
+                {Data.map(item => {
+                  return (
+                    <View key={item.id}>
+                      <TouchableOpacity
+                        onPress={() => handleTabMenu(item.name, item.screenNAme)}
+                        style={{
+                          width: 55,
+                          height: 55,
+                          backgroundColor: item.bgColor,
+                          borderRadius: 20,
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          left: 10,
+                          marginLeft: 3,
+                          //   marginTop: '-10%',
+                        }}
+                        key={item.id}>
+                        <Icon
+                          name={item.Icon_Name}
+                          type={item.type}
+                          size={22}
+                          color="#FFFFFF"
+                        />
+                      </TouchableOpacity>
+                      <View
+                        style={{
+                          width: 70,
+                          marginTop: 5,
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          marginLeft: 3,
+                        }}>
+                        <Text style={{
+                          color: '#FFFFFF',
+                        }}>
+                         {item.name}
+                        </Text>
+                      </View>
+                    </View>
+                  );
+                })}
+              </ScrollView>
+            </View> */}
+          </View>
 
           <View
             style={[
               styles.showAll,
-              { paddingBottom: -5, marginTop: 35, paddingHorizontal: 10 },
+              { paddingBottom: -5, marginTop: 20, paddingHorizontal: 10 },
             ]}>
             <Text
               style={{
                 fontSize: 24,
-                // fontWeight: '800',
                 lineHeight: 24,
                 color: '#ffff',
-                // top: '4%',
               }}>
               Upcoming Events
             </Text>
@@ -683,20 +614,38 @@ const HomeScreen = ({ navigation }) => {
             // handleRefresh={onRefreshHandler}
             />
           </ScrollView>
+
+          <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
+            <Text style={styles.text}>Today's - Salah Time</Text>
+            <TouchableOpacity
+              onPress={() =>
+                navigation.navigate(CONSTANT.App.tabMenu.prayerTab, {
+                  currentLatitude,
+                  currentLongitude,
+                  currentMonth,
+                  setCurrentMonth,
+                })
+              }>
+              <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
+            </TouchableOpacity>
+          </View>
+          <PrayerTimeComp
+            currentLatitude={currentLatitude}
+            currentLongitude={currentLongitude}
+            currentMonth={currentMonth}
+          />
           <View
             style={{
               display: 'flex',
               flexDirection: 'row',
               justifyContent: 'space-between',
-              // top: 35,
-              // marginTop: -90,
               paddingBottom: 18,
               paddingHorizontal: 10,
+              marginTop:20,
             }}>
             <Text
               style={{
                 fontSize: 24,
-                // fontWeight: '800',
                 lineHeight: 24,
                 color: '#ffff',
                 // top: '4%',
@@ -706,7 +655,9 @@ const HomeScreen = ({ navigation }) => {
           </View>
           <TouchableOpacity
             onPress={() =>
-              navigation.navigate(CONSTANT.App.screenNames.liveStream)
+              // navigation.navigate(CONSTANT.App.screenNames.liveStream)
+            Linking.openURL('https://vimeo.com/event/2318472/chat/')
+
             }
             style={{
               width: '100%',
@@ -714,7 +665,6 @@ const HomeScreen = ({ navigation }) => {
               backgroundColor: '#1a1d2e',
               marginTop: 10,
               borderRadius: 15,
-              // marginTop: 30,
             }}>
             <View style={{ width: '100%', height: 190 }}>
               <Image
@@ -778,6 +728,41 @@ const HomeScreen = ({ navigation }) => {
             </View>
           </TouchableOpacity>
 
+          
+          <View style={{ marginTop: 20, marginLeft: 10 }}>
+            <Text
+              style={{
+                fontSize: 24,
+                // fontWeight: '800',
+                lineHeight: 4,
+                color: '#ffff',
+                paddingTop: 25,
+                // top: '4%',
+              }}>
+              Donate Us
+            </Text>
+          </View>
+          <View style={{ marginTop: 5 }}>
+            <Text
+              style={{
+                color: '#9D9D9D',
+                alignItems: 'stretch',
+                fontSize: 14,
+                lineHeight: 17,
+                marginLeft: 10,
+                marginBottom: 20,
+              }}>
+              Lorem Ipsum is simply dummy text of the printing
+            </Text>
+          </View>
+
+          <CustomButton
+            variant={'filled'}
+            title={'Donate now'}
+            style={{ marginTop: -6 }}
+            onPress={() => Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB')}
+          />
+
         </View>
       </ScrollView>
     </BackgroundImage>
@@ -809,7 +794,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginTop: 30,
+    marginTop: 15,
   },
   paginText: {
     color: '#888',

@@ -82,7 +82,7 @@ const HadithsScreen = ({ navigation }) => {
             // fontWeight: '500',
             marginLeft: 40,
           }}>
-          Hadeeths
+          Hadith 
         </Text>
       </View>
 
@@ -120,7 +120,7 @@ const HadithsScreen = ({ navigation }) => {
                 }>
                 <View style={styles.container}>
                   <View style={styles.announceBox}>
-                    <Text
+                    {/* <Text
                       style={{
                         color: '#a7c829',
                         fontSize: 19,
@@ -131,7 +131,7 @@ const HadithsScreen = ({ navigation }) => {
                         // width: '60%',
                       }}>
                       {item.name}
-                    </Text>
+                    </Text> */}
                     {console.log(item.collection[1].title)}
                     <View style={{}}>
                       <View

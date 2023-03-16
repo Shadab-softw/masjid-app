@@ -169,6 +169,7 @@ const CONSTANT = {
       Announce: 'announce',
       AnnounceDetail: 'anounceDetail',
       liveStream: 'liveStream',
+      liveStreamss: 'https://vimeo.com/event/2318472/chat/',
       profileAccount: 'profileAccount',
       profileFollow: 'profileFollow',
       notification: 'notification',

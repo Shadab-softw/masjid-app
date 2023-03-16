@@ -166,15 +166,13 @@ export const UpEventListComp = ({
       ) : (
         <ScrollView
           vertical={true}
-          contentContainerStyle={{paddingBottom: 150}}>
+          contentContainerStyle={{paddingBottom: 30}}>
           <FlatList
             data={eventList?.events}
             onRefresh={() => {
-              // alert('he');
             }}
             refreshing={false}
             renderItem={({item}) => {
-              // console.log('>>><<<', item.id);
               return (
                 <View>
                   <TouchableOpacity
