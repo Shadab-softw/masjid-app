@@ -139,7 +139,7 @@ const CONSTANT = {
       homeTAb: 'home',
       dashTab: 'dashboard',
       eventTab: 'event',
-      prayerTab: 'prayer',
+      prayerTab: 'Prayer Timings',
       moreTab: 'more',
       askImamTab:'ask_Imam',
       serviceTab:'service',
