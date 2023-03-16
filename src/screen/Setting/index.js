@@ -132,10 +132,9 @@ const SettingScreen = ({ navigation }) => {
           </TouchableOpacity>
           <Text style={styles.title}>Settings</Text>
         </View>
-
         <ScrollView
           vertical={true}
-          contentContainerStyle={{ height: '100%', paddingBottom: 100 }}
+          contentContainerStyle={{ height: '70%', paddingBottom: 100 }}
           showsVerticalScrollIndicator={false}>
           <View style={styles.container}>
             <View style={styles.row}>
@@ -190,7 +189,7 @@ const SettingScreen = ({ navigation }) => {
             </View>
             <View style={styles.row11}>
               <TouchableOpacity>
-                <Text style={styles.heading1}>In app notification</Text>
+                <Text style={styles.heading1}>In App Notification</Text>
               </TouchableOpacity>
 
               <TouchableOpacity>
@@ -226,7 +225,7 @@ const SettingScreen = ({ navigation }) => {
                 />
               </TouchableOpacity>
             </View>
-            <View style={styles.row3}>
+            {/* <View style={styles.row3}>
               <TouchableOpacity>
                 <Text style={styles.heading6}>Miscellaneous</Text>
               </TouchableOpacity>
@@ -244,15 +243,15 @@ const SettingScreen = ({ navigation }) => {
                   onToggle={toggle3Button}
                 />
               </TouchableOpacity>
-            </View>
+            </View> */}
           </View>
 
           <View style={styles.container4}>
-            <View style={styles.row}>
+            {/* <View style={styles.row}>
               <Entypo name="dots-three-horizontal" style={styles.icon} />
               <Text style={styles.heading}>Others</Text>
-            </View>
-            <View style={styles.row1}>
+            </View> */}
+            {/* <View style={styles.row1}>
               <TouchableOpacity
                 onPress={() =>
                   navigation.navigate(CONSTANT.App.screenNames.AskImamSettingScreen,
@@ -291,12 +290,8 @@ const SettingScreen = ({ navigation }) => {
                   style={styles.icon2}
                 />
               </TouchableOpacity>
-            </View>
-            <View style={styles.row}>
-              {/* <Entypo name="dots-three-horizontal" style={styles.icon} /> */}
-              {/* <Text style={styles.heading}>Others</Text> */}
-            </View>
-            <View style={styles.roww2}>
+            </View> */}
+            {/* <View style={styles.roww2}>
               <TouchableOpacity
                 onPress={() => navigation.navigate(CONSTANT.App.screenNames.FeedbackScreen)
 
@@ -313,7 +308,7 @@ const SettingScreen = ({ navigation }) => {
                   style={styles.icon2}
                 />
               </TouchableOpacity>
-            </View>
+            </View> */}
 
             <View style={styles.Sign2}>
               <TouchableOpacity
@@ -362,7 +357,7 @@ const styles = StyleSheet.create({
   container1: {
     width: '100%',
     // flex: 1,
-    marginBottom: 90,
+    marginBottom: 10,
     // top: -85,
   },
 
@@ -526,7 +521,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     marginHorizontal: 0,
-
     // width: '100%',
     // left: 20,
     top: 100,

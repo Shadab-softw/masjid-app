@@ -144,7 +144,7 @@ const LoginScreen = ({ navigation }) => {
           <Entypo name="chevron-left" size={22} color="#ffffff" />
         </TouchableOpacity>
         <Image
-          source={require('../../assets/images/logo.png')}
+          source={require('../../assets/app-logo.png')}
           style={styles.logo}
         />
       </View>
@@ -152,7 +152,7 @@ const LoginScreen = ({ navigation }) => {
         <Text style={styles.text}>Login</Text>
         <View style={{ width: '100%' }}>
           <Text style={[styles.paragraph]}>
-            Welcome back! Build your prayer habbits with Al-Tauheed.
+            Welcome To Al-Tawheed Islamic Center!
           </Text>
         </View>
       </View>
@@ -288,7 +288,7 @@ const LoginScreen = ({ navigation }) => {
           </Text>
         </View>
 
-        <View style={styles.socialBox}>
+        {/* <View style={styles.socialBox}>
           <TouchableOpacity style={[styles.iconView, { marginRight: 5 }]}>
             <FontAwesomes name="google" size={25} color={'#FFFFFF'} />
             <Text style={{ color: '#FFFFFF', marginLeft: 4 }}>Google</Text>
@@ -304,10 +304,9 @@ const LoginScreen = ({ navigation }) => {
             styles.iconView,
             { backgroundColor: '#FFFFFF', marginLeft: '25%', marginTop: 10 },
           ]}>
-          {/* <FontAwesomes name="facebook-square" size={25} color={'#000000'} /> */}
           <AntDesigns name="apple-o" size={25} color={'#000000'} />
           <Text style={{ color: '#000000', marginLeft: 4 }}>Apple Id</Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
       </View>
 
       <View

@@ -107,7 +107,7 @@ const QuranScreen = ({ navigation }) => {
           Popular Searches
         </Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={{
               backgroundColor: 'rgba(255,255,255,0.2)',
               width: 98,
@@ -144,7 +144,7 @@ const QuranScreen = ({ navigation }) => {
               alignItems: 'center',
             }}>
             <Text style={{ color: '#fff', fontSize: 14 }}>surah-al-mulk</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
         <View style={{ marginTop: 10 }}>
           {listChapter.map(item => {

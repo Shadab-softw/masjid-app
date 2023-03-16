@@ -34,62 +34,45 @@ import Entypo from 'react-native-vector-icons/dist/Entypo';
 import { EventListComp } from '../../component/List/EventList';
 import { useAuth } from '../../hook/useAuth';
 import { useIsFocused } from '@react-navigation/core';
+
 const Data1 = [
   {
     id: 1,
-    name: 'Services',
-    Icon_Name: 'server',
-    bgColor: '#5E5E5E',
-    type: 'font-awesome',
-    screenName: CONSTANT.App.screenNames.services,
+    name: 'Chat with us',
+    Icon_Name: 'message-circle',
+    bgColor: '#6733ba',
+    type: 'feather',
+    screenName: CONSTANT.App.screenNames.ChatList
   },
-
+  
   {
     id: 2,
-    name: 'Events',
-    Icon_Name: 'calendar',
-    bgColor: '#20BBD4',
-    type: 'feather',
-    screenName: CONSTANT.App.tabMenu.eventTab,
-  },
-  {
-    id: 3,
     name: 'Donate',
     Icon_Name: 'dollar-sign',
     bgColor: '#DFBB2B',
     type: 'feather',
     screenName: CONSTANT.App.screenNames.MoreScreen,
   },
+  {
+    id: 3,
+    name: 'Events',
+    Icon_Name: 'calendar',
+    bgColor: '#20BBD4',
+    type: 'feather',
+    screenName: CONSTANT.App.tabMenu.eventTab,
+  },
 ];
 const Data2 = [
   {
     id: 4,
-    name: 'New muslim support',
-    Icon_Name: 'headphones',
-    bgColor: '#A758EB',
-    type: 'feather',
-    screenName: CONSTANT.App.screenNames.NewMuslimScreen,
+    name: 'Qibla Direction',
+    Icon_Name: 'compass',
+    bgColor: '#B75790',
+    type: 'entypo',
+    screenName: CONSTANT.App.screenNames.QiblaScreen,
   },
   {
     id: 5,
-    name: 'Hadiths',
-    Icon_Name: 'star',
-    bgColor: '#DF6C2B',
-    type: 'feather',
-    screenName: CONSTANT.App.screenNames.HadeesScreen,
-  },
-  {
-    id: 6,
-    name: 'Setting',
-    Icon_Name: 'settings',
-    bgColor: '#A7C829',
-    type: 'feather',
-    screenName: CONSTANT.App.screenNames.SettingScreen,
-  },
-];
-const Data3 = [
-  {
-    id: 7,
     name: 'Quran',
     Icon_Name: 'book-open',
     bgColor: '#A75647',
@@ -97,60 +80,71 @@ const Data3 = [
     screenName: CONSTANT.App.screenNames.QuranScreen,
   },
   {
-    id: 8,
-    name: 'Qibla direction',
-    Icon_Name: 'compass',
-    bgColor: '#B75790',
-    type: 'entypo',
-    screenName: CONSTANT.App.screenNames.QiblaScreen,
+    id: 6,
+    name: 'Hadiths',
+    Icon_Name: 'book-open',
+    bgColor: '#DF6C2B',
+    type: 'feather',
+    screenName: CONSTANT.App.screenNames.HadeesScreen,
+  },
+ 
+];
+const Data3 = [
+  {
+    id: 7,
+    name: 'Events',
+    Icon_Name: 'calendar',
+    bgColor: '#20BBD4',
+    type: 'feather',
+    screenName: CONSTANT.App.tabMenu.eventTab,
   },
   {
-    // id: 9,
-    // name: 'Quran Translation',
-    // Icon_Name: 'book-open',
-    // bgColor: '#D44563',
-    // type: 'feather',
-    // screenName: CONSTANT.App.screenNames.QuranTransScreen,
-    id: 10,
+    id: 8,
     name: 'Salah Time',
     Icon_Name: 'clock',
     bgColor: '#A7c865',
     type: 'feather',
     screenName: CONSTANT.App.tabMenu.prayerTab,
   },
+  {
+    id: 9,
+    name: 'Settings',
+    Icon_Name: 'settings',
+    bgColor: '#A7C829',
+    type: 'feather',
+    screenName: CONSTANT.App.screenNames.SettingScreen,
+  },
+
 ];
 const Data4 = [
-  {
-    // id: 10,
-    // name: 'Salah Time',
-    // Icon_Name: 'clock',
-    // bgColor: '#A7c865',
-    // type: 'feather',
-    // screenName: CONSTANT.App.tabMenu.prayerTab,
-    id: 11,
-    name: 'Contact Form',
-    Icon_Name: 'user',
-    bgColor: 'gray',
-    type: 'feather',
-    screenName: CONSTANT.App.screenNames.ContactForm
-  },
+  //  {
+  //   // id: 9,
+  //   // name: 'New muslim support',
+  //   // Icon_Name: 'headphones',
+  //   // bgColor: '#A758EB',
+  //   // type: 'feather',
+  //   // screenName: CONSTANT.App.screenNames.NewMuslimScreen,
+  // },
+  // {
+  //   id: 9,
+  //   name: 'New muslim support',
+  //   Icon_Name: 'headphones',
+  //   bgColor: '#A758EB',
+  //   type: 'feather',
+  //   screenName: CONSTANT.App.screenNames.NewMuslimScreen,
+  // },
+  
+  // {
+  //   id: 10,
+  //   name: 'Contact Form',
+  //   Icon_Name: 'user',
+  //   bgColor: 'gray',
+  //   type: 'feather',
+  //   screenName: CONSTANT.App.screenNames.ContactForm
+  // },
+ 
   {
     // id: 11,
-    // name: 'Contact Form',
-    // Icon_Name: 'user',
-    // bgColor: 'gray',
-    // type: 'feather',
-    // screenName: CONSTANT.App.screenNames.ContactForm
-    id: 13,
-    name: 'Chat with imam',
-    Icon_Name: 'message-circle',
-    bgColor: '#6733ba',
-    type: 'feather',
-    screenName: CONSTANT.App.screenNames.ChatList
-
-  },
-  {
-    // id: 12,
     // name: 'Contact List',
     // Icon_Name: 'user',
     // bgColor: 'gray',
@@ -164,7 +158,7 @@ const Data4 = [
 const Data5 = [
 
   {
-    // id: 13,
+    // id: 12,
     // name: 'Chat',
     // Icon_Name: 'message-circle',
     // bgColor: '#6733ba',
@@ -173,7 +167,7 @@ const Data5 = [
 
   },
   // {
-  //   id: 14,
+  //   id: 13,
   //   name: 'Imam Chat',
   //   Icon_Name: 'message-circle',
   //   bgColor: 'green',
@@ -428,6 +422,7 @@ const MoreScreen = ({ navigation }) => {
                       </Text>
                     </View>
                   </TouchableOpacity>
+
                 </View>
               );
             })}
@@ -498,7 +493,6 @@ const MoreScreen = ({ navigation }) => {
               flexWrap: 'wrap',
             }}>
             {showChat ? Data5.map(item => {
-
               return (
                 <View>
                   <TouchableOpacity

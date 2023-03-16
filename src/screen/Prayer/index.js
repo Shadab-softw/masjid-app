@@ -160,11 +160,6 @@ const PrayerScreen = ({ route }) => {
 
     }
     console.log(currentMonth);
-
-
-
-
-
   };
 
   return (
