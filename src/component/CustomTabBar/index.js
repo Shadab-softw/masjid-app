@@ -267,7 +267,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
             target: route.key,
           });
         };
-{/* {profileimg} */}
+// {/* {profileimg} */}
         if(tabLable == "imamAsk" || tabLable == "service" || tabLable == "new_Muslim" || tabLable == "weekend_School" || tabLable == 'marriage_Service' || tabLable == 'ramdan_Service' || tabLable == 'funeral_Service' || tabLable == 'news_letter' || tabLable == 'general' || tabLable == 'consult_tab'){
           return (null);
         } else{
