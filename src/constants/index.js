@@ -120,7 +120,7 @@ const CONSTANT = {
       bg_Image: require('../assets/images/bgImg.png'),
       bg_Dark: require('../assets/images/bgBlack.jpg'),
       bell: require('../assets/images/bell.png'),
-      logo: require('../assets/images/logo.png'),
+      logo: require('../assets/app-logo.png'),
       moon: require('../assets/images/moon.png'),
       moon_one: require('../assets/images/moon1.png'),
       calender: require('../assets/images/calender.png'),
