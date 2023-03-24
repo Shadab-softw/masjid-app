@@ -13,10 +13,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2E16C17026DFC0CD00EFDD90 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E16C16F26DFC0CD00EFDD90 /* File.swift */; };
 		2E1ACDF329754D8F00E7243B /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1ACDF229754D8F00E7243B /* dummy.swift */; };
-		2EF2E2D829640B59006B6F4D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EF2E2D729640B59006B6F4D /* GoogleService-Info.plist */; };
-		76FFF28492EB78BE71A7AA60 /* libPods-masjidApp-masjidAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B51B74221EB0CAD5F2F525D /* libPods-masjidApp-masjidAppTests.a */; };
+		5D4350D1BA8FABA2EE05B76B /* libPods-masjidApp-masjidAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BE7A62F10C7B859AC353E9 /* libPods-masjidApp-masjidAppTests.a */; };
+		7326F808DE76B45D99272816 /* libPods-masjidApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C2F563C8CD7F17623F3B38 /* libPods-masjidApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		96FC6B8BF9BEF51FE26A28D0 /* libPods-masjidApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F16C39168832A77F7E6864 /* libPods-masjidApp.a */; };
+		9883A14A29CD6CB4004A855C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9883A14929CD6CB4004A855C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +33,7 @@
 		00E356EE1AD99517003FC87E /* masjidAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masjidAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* masjidAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = masjidAppTests.m; sourceTree = "<group>"; };
+		05BE7A62F10C7B859AC353E9 /* libPods-masjidApp-masjidAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-masjidApp-masjidAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D578E3A9DC4E9DA8DE0D2D /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		0A0423E18FB84ACDB3A84FF1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* masjidApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masjidApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,32 +42,30 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = masjidApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = masjidApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = masjidApp/main.m; sourceTree = "<group>"; };
-		1DE89DF3C5047F52A43D0B2A /* Pods-masjidApp-masjidAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp-masjidAppTests.debug.xcconfig"; path = "Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		21D95D59169E4D3EA797CC96 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		29548B704B3A457B806DDCEE /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		2E16C16E26DFC0CC00EFDD90 /* masjidApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "masjidApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		2E16C16F26DFC0CD00EFDD90 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2E1ACDF229754D8F00E7243B /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
-		2EF2E2D729640B59006B6F4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2EF2E2D929640B86006B6F4D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		307670E655C244E4A78D270C /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		38EF5BBFEADC6BA24A3C2D4A /* Pods-masjidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp.release.xcconfig"; path = "Target Support Files/Pods-masjidApp/Pods-masjidApp.release.xcconfig"; sourceTree = "<group>"; };
 		439D7FCB0EA54A18A27535CE /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		49F16C39168832A77F7E6864 /* libPods-masjidApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-masjidApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D15307E3E61418895694291 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		602109EEA37841CCB8C3BDF6 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		6B51B74221EB0CAD5F2F525D /* libPods-masjidApp-masjidAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-masjidApp-masjidAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E0110BE8DB32615C9273610 /* Pods-masjidApp-masjidAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp-masjidAppTests.release.xcconfig"; path = "Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6495CF49DDE1C989F7DCA08B /* Pods-masjidApp-masjidAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp-masjidAppTests.debug.xcconfig"; path = "Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7543E683F25BAFBE1B701A2C /* Pods-masjidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp.debug.xcconfig"; path = "Target Support Files/Pods-masjidApp/Pods-masjidApp.debug.xcconfig"; sourceTree = "<group>"; };
 		80D83DD5C47B4F40B53D8C0B /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = masjidApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8955F883306A3908D623FCFD /* Pods-masjidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp.release.xcconfig"; path = "Target Support Files/Pods-masjidApp/Pods-masjidApp.release.xcconfig"; sourceTree = "<group>"; };
+		939D274B6138F11C27EE1C6F /* Pods-masjidApp-masjidAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp-masjidAppTests.release.xcconfig"; path = "Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9883A14929CD6CB4004A855C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "masjidApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BB764A105D748109898027D /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		B2B63371ECAFF5694A3056C9 /* Pods-masjidApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp.debug.xcconfig"; path = "Target Support Files/Pods-masjidApp/Pods-masjidApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B32C4494BF93441884B48DAD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		C91284376FDA430C804BB541 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		D5B1657E4E9746FF8BD9F372 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED6D0E4A1E534C7CB7ED5610 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		F47367EB29A74795BDB05179 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		F8C2F563C8CD7F17623F3B38 /* libPods-masjidApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-masjidApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6D209B1D0F453981F0C15D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FFF28492EB78BE71A7AA60 /* libPods-masjidApp-masjidAppTests.a in Frameworks */,
+				5D4350D1BA8FABA2EE05B76B /* libPods-masjidApp-masjidAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96FC6B8BF9BEF51FE26A28D0 /* libPods-masjidApp.a in Frameworks */,
+				7326F808DE76B45D99272816 /* libPods-masjidApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +109,7 @@
 		13B07FAE1A68108700A75B9A /* masjidApp */ = {
 			isa = PBXGroup;
 			children = (
-				2EF2E2D929640B86006B6F4D /* GoogleService-Info.plist */,
+				9883A14929CD6CB4004A855C /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -127,8 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				49F16C39168832A77F7E6864 /* libPods-masjidApp.a */,
-				6B51B74221EB0CAD5F2F525D /* libPods-masjidApp-masjidAppTests.a */,
+				F8C2F563C8CD7F17623F3B38 /* libPods-masjidApp.a */,
+				05BE7A62F10C7B859AC353E9 /* libPods-masjidApp-masjidAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,10 +135,10 @@
 		5DF7BC95A427CFC7073BCD39 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2B63371ECAFF5694A3056C9 /* Pods-masjidApp.debug.xcconfig */,
-				38EF5BBFEADC6BA24A3C2D4A /* Pods-masjidApp.release.xcconfig */,
-				1DE89DF3C5047F52A43D0B2A /* Pods-masjidApp-masjidAppTests.debug.xcconfig */,
-				7E0110BE8DB32615C9273610 /* Pods-masjidApp-masjidAppTests.release.xcconfig */,
+				7543E683F25BAFBE1B701A2C /* Pods-masjidApp.debug.xcconfig */,
+				8955F883306A3908D623FCFD /* Pods-masjidApp.release.xcconfig */,
+				6495CF49DDE1C989F7DCA08B /* Pods-masjidApp-masjidAppTests.debug.xcconfig */,
+				939D274B6138F11C27EE1C6F /* Pods-masjidApp-masjidAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				2E1ACDF229754D8F00E7243B /* dummy.swift */,
-				2EF2E2D729640B59006B6F4D /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* masjidApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* masjidAppTests */,
@@ -218,14 +216,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "masjidAppTests" */;
 			buildPhases = (
-				044F3AB54E96F7EE103DA580 /* [CP] Check Pods Manifest.lock */,
+				8D0B5CAA6F34D614EBCCF239 /* [CP] Check Pods Manifest.lock */,
 				2EBB0582295D93FF00FC5F76 /* Headers */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
 				2EBB0580295D93C700FC5F76 /* ShellScript */,
-				0FF6F3CCB4B9C3E865826215 /* [CP] Embed Pods Frameworks */,
-				0F5EDDF10DD44A3422C6539B /* [CP] Copy Pods Resources */,
+				8D439BC095FDDB721CBCC5A1 /* [CP] Embed Pods Frameworks */,
+				76F1D885CA4F9CA81EE55785 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,15 +239,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "masjidApp" */;
 			buildPhases = (
-				DA30C56FDBC00B24E3B6DE20 /* [CP] Check Pods Manifest.lock */,
+				F1D7970200AB54D528E894F1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				297607CBB42FA669A1CAE0D6 /* [CP] Embed Pods Frameworks */,
-				C7B91B6425BFCCA1A680CC98 /* [CP] Copy Pods Resources */,
-				12838F4CD13E47488249C46D /* [CP-User] [RNFB] Core Configuration */,
+				3C52DE239F58D1D5EA7C4504 /* [CP] Embed Pods Frameworks */,
+				2274C1FFEF3CA61A9BCF5C4D /* [CP] Copy Pods Resources */,
+				6719CD15C23D0AD44DEFF6E6 /* [CP-User] [RNFB] Core Configuration */,
 			);
 			buildRules = (
 			);
@@ -310,7 +308,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				2EF2E2D829640B59006B6F4D /* GoogleService-Info.plist in Resources */,
+				9883A14A29CD6CB4004A855C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +329,87 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		044F3AB54E96F7EE103DA580 /* [CP] Check Pods Manifest.lock */ = {
+		2274C1FFEF3CA61A9BCF5C4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EBB0580295D93C700FC5F76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellScript = "\n";
+		};
+		3C52DE239F58D1D5EA7C4504 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6719CD15C23D0AD44DEFF6E6 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		76F1D885CA4F9CA81EE55785 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0B5CAA6F34D614EBCCF239 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,26 +431,9 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0F5EDDF10DD44A3422C6539B /* [CP] Copy Pods Resources */ = {
+		8D439BC095FDDB721CBCC5A1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0FF6F3CCB4B9C3E865826215 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -382,74 +443,12 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests-frameworks.sh\"\n";
-		};
-		12838F4CD13E47488249C46D /* [CP-User] [RNFB] Core Configuration */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
-			);
-			name = "[CP-User] [RNFB] Core Configuration";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    _JSON_OUTPUT_BASE64=$(python -c 'import json,sys,base64;print(base64.b64encode(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"').read())['${_JSON_ROOT}'])))' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
-		};
-		297607CBB42FA669A1CAE0D6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2EBB0580295D93C700FC5F76 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellScript = "\n";
-		};
-		C7B91B6425BFCCA1A680CC98 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-masjidApp/Pods-masjidApp-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA30C56FDBC00B24E3B6DE20 /* [CP] Check Pods Manifest.lock */ = {
+		F1D7970200AB54D528E894F1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -525,7 +524,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DE89DF3C5047F52A43D0B2A /* Pods-masjidApp-masjidAppTests.debug.xcconfig */;
+			baseConfigurationReference = 6495CF49DDE1C989F7DCA08B /* Pods-masjidApp-masjidAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -553,7 +552,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E0110BE8DB32615C9273610 /* Pods-masjidApp-masjidAppTests.release.xcconfig */;
+			baseConfigurationReference = 939D274B6138F11C27EE1C6F /* Pods-masjidApp-masjidAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -578,7 +577,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2B63371ECAFF5694A3056C9 /* Pods-masjidApp.debug.xcconfig */;
+			baseConfigurationReference = 7543E683F25BAFBE1B701A2C /* Pods-masjidApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -606,7 +605,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38EF5BBFEADC6BA24A3C2D4A /* Pods-masjidApp.release.xcconfig */;
+			baseConfigurationReference = 8955F883306A3908D623FCFD /* Pods-masjidApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
