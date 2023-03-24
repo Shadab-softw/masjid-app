@@ -195,7 +195,6 @@ const servStack = () => {
 const bottomStack = createStackNavigator();
 const homeBottomTab = () => {
   const data=useSelector(state=>state.changeScreeen)
-  console.log("useselector",data)
 
   return (
     <bottomStack.Navigator

@@ -90,16 +90,9 @@ const Data2 = [
  
 ];
 const Data3 = [
+  
   {
     id: 7,
-    name: 'Events',
-    Icon_Name: 'calendar',
-    bgColor: '#20BBD4',
-    type: 'feather',
-    screenName: CONSTANT.App.tabMenu.eventTab,
-  },
-  {
-    id: 8,
     name: 'Salah Time',
     Icon_Name: 'clock',
     bgColor: '#A7c865',
@@ -107,14 +100,21 @@ const Data3 = [
     screenName: CONSTANT.App.tabMenu.prayerTab,
   },
   {
-    id: 9,
+    id: 8,
     name: 'Settings',
     Icon_Name: 'settings',
     bgColor: '#A7C829',
     type: 'feather',
     screenName: CONSTANT.App.screenNames.SettingScreen,
   },
-
+  {
+    id: 9,
+    name: '',
+    Icon_Name: '',
+    bgColor: 'transparent',
+    type: '',
+    screenName: '',
+  },
 ];
 const Data4 = [
   //  {
