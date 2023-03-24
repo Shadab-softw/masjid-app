@@ -24,9 +24,8 @@ const HijriDate = () => {
 
   const getHijriDate = async () => {
     try {
-      const response = await fetch(`http://api.aladhan.com/v1/gToH?date=${formattedToday}`);
+      const response = await fetch(`http://api.aladhan.com/v1/gToH/${formattedToday}`);
       const json = await response.json();
-      console.log("json",json)
       setData(json.data);
       setHijriDate(json.data.hijri.day);
       setHijriMonth(json.data.hijri.month.en);
