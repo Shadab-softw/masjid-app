@@ -2,19 +2,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import React, { useState, useEffect } from 'react';
-import { View, Text, Image, StyleSheet } from 'react-native';
+import { View, Text, Image, StyleSheet,ActivityIndicator  } from 'react-native';
 import CONSTANT from '../constants';
 
 const HijriDate = () => {
   const [isLoading, setLoading] = useState(true);
-  const [hijri, setHijri] = useState('29 Zul Qada,1442 Hijri');
   const [data, setData] = useState({});
   const [hijriDate, setHijriDate] = useState('');
   const [hijriMonth, setHijriMonth] = useState('');
   const [hijriYear, setHijriYear] = useState('');
 
   const date = new Date();
-  // console.log('date>>>',date);
   const year = date.getFullYear();
   let month = date.getMonth() + 1;
   let dd = date.getDate();
@@ -24,17 +22,15 @@ const HijriDate = () => {
 
   const formattedToday = dd + '-' + month + '-' + year;
 
-  // console.log('formattedToday>>>>',formattedToday,typeof formattedToday)
-
   const getHijriDate = async () => {
     try {
       const response = await fetch(`http://api.aladhan.com/v1/gToH?date=${formattedToday}`);
       const json = await response.json();
+      console.log("json",json)
       setData(json.data);
       setHijriDate(json.data.hijri.day);
       setHijriMonth(json.data.hijri.month.en);
       setHijriYear(json.data.hijri.year);
-      // console.log('hijri response>>>',JSON.stringify(json));
     } catch (error) {
       console.error(error);
     } finally {
@@ -42,16 +38,9 @@ const HijriDate = () => {
     }
   }
 
-  // let hijriMonths = ['Muharram','Safar','Rabi al-Awwal','Rabi al-Thani','Jumada al-Awwal','Jumada al-Thani','Rajab','Shaban','Ramadan','Shawwal',
-  // 'Dhu al-Qadah','Dhu al-Hijjah'];
-
   useEffect(() => {
-    // let date = new Date();
-    // let localeFormat = 'en-u-ca-islamic-nu-latn';
-    // let hijr = Intl.DateTimeFormat(localeFormat).format(date);
-    // console.log(hijr);
     getHijriDate();
-  }, []);
+  }, [data]);
 
   return (
     <View style={styles.box}>
@@ -79,11 +68,10 @@ const HijriDate = () => {
           </Text>
         </View>
 
-        <Text style={{ color: '#FFFFFF', fontSize: 16, marginTop: 4 }}>
-          {/* {isLoading ? <ActivityIndicator /> : data.hijri.day + ' ' + data.hijri.month.en + ',' + data.hijri.year + ' Hijri'}
-                 */}
+      {isLoading ? <ActivityIndicator size="small" color='#A7C829'  /> 
+       : <Text style={{ color: '#FFFFFF', fontSize: 16, marginTop: 4 }}>
           {hijriDate + ' ' + hijriMonth + ',' + hijriYear + ' Hijri'}
-        </Text>
+        </Text>}
       </View>
       <View>
         <Image

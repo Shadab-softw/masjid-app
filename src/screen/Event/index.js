@@ -1,24 +1,16 @@
 /* eslint-disable prettier/prettier */
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect,  } from 'react';
 import {
-  ImageBackground,
   Text,
   View,
   ScrollView,
   StyleSheet,
-  Image,
 } from 'react-native';
 import CONSTANT from '../../constants';
-
-import { BgImage } from '../../component/ImageContainer';
 import { BackgroundImage } from 'react-native-elements/dist/config';
-import Carousel from 'react-native-looped-carousel';
 import { useIsFocused } from '@react-navigation/native';
-
-import { Tab } from 'react-native-elements';
 import {
   UpEventListComp,
-  FeaturedEventListComp,
 } from '../../component/List/EventList';
 import BannerImgComp from '../../component/Common/Banner';
 import HijriDate from '../../component/HijriDate';
@@ -40,7 +32,6 @@ const EventScreen = ({ navigation }) => {
     setDisableScroll(true);
     setCustomView(View);
     setTouch(false);
-    // alert('hi');
   };
   const isFocused = useIsFocused();
 
@@ -84,7 +75,6 @@ const EventScreen = ({ navigation }) => {
     }
   };
 
-  console.log('index value', selectedIndex);
   return (
     <View
       onTouchMove={onRefreshHandler}
