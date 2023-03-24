@@ -11,21 +11,14 @@ import {
   StyleSheet,
   Image,
   Dimensions,
-  FlatList,
-  KeyboardAvoidingView,
   Linking,
 } from 'react-native';
 import Geolocation from '@react-native-community/geolocation';
-
 import CustomHeader from '../../component/CustomHeader';
 import CONSTANT from '../../constants';
-import { Button, Icon, Overlay } from 'react-native-elements';
+import { Icon,} from 'react-native-elements';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import CustomInput from '../../component/InputFileds';
-import { CheckBox } from 'react-native-elements';
 import CustomButton from '../../component/CustomButton';
-import { ListComp } from '../../component/List';
-import { useDispatch } from 'react-redux';
 import { UpEventListComp } from '../../component/List/EventList';
 import { BackgroundImage } from 'react-native-elements/dist/config';
 import Carousel from 'react-native-looped-carousel';
@@ -36,19 +29,12 @@ import BannerImgComp from '../../component/Common/Banner';
 import { AuthContext } from '../../context/authContext';
 import ReadMoreComp from './ReadMore';
 import Tts from 'react-native-tts';
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp,
-} from 'react-native-responsive-screen';
 import { useIsFocused } from '@react-navigation/native';
 import { PrayerTimeComp } from '../../component/PrayerTime';
 import ReadMoreDesc from './ReadMoreDesc';
 import HijriDate from '../../component/HijriDate';
 
-// import {Button, Overlay} from 'react-native-elements';
-
 const { width } = Dimensions.get('window');
-// const height=width*100/100;  //60%
 const height = 200;
 
 const Data = [
@@ -90,7 +76,6 @@ const Data = [
     Icon_Name: 'server',
     bgColor: '#5E5E5E',
     type: 'font-awesome',
-    // screenNAme: CONSTANT.App.screenNames.services,
     screenNAme: CONSTANT.App.tabMenu.serviceTab,
   },
 ];
@@ -269,14 +254,12 @@ const HomeScreen = ({ navigation }) => {
     if (name == 'Donate') {
       Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB');
     } else if (name == 'Ask Imam') {
-      // console.log('serviceData>>>>',JSON.stringify(serviceData,null,2));
       if (serviceData) {
         let isPresent = serviceData.map(item => {
           if (item.title.toLowerCase().includes('ask imam')) {
             return item;
           }
         });
-        // console.log('isPresent>>>>',JSON.stringify(isPresent,null,2));
         if (isPresent) {
           navigation.navigate(screenName, {
             data: isPresent,
@@ -309,6 +292,12 @@ const HomeScreen = ({ navigation }) => {
           }
         }}
       />
+
+<View style={{ width: '100%' }}>
+          <Text style={[styles.paragraph]}>
+            Welcome To Al-Tawheed Islamic Center!
+          </Text>
+        </View>
 
       <ScrollView showsVerticalScrollIndicator={false} style={{ marginTop: 10 }}>
         <View style={{ padding: 10 }}>
@@ -470,17 +459,6 @@ const HomeScreen = ({ navigation }) => {
                 // top: 10,
               }}>
               {/* {verseData?.eng_verse} */}
-
-            </Text>
-            <Text
-              style={{
-                color: '#9D9D9D',
-                top: 10,
-                fontSize: 17,
-                // fontWeight: '500',
-                lineHeight: 17,
-              }}>
-              {verseData?.eng_title}
 
             </Text>
             <ReadMoreComp />
@@ -857,6 +835,12 @@ const styles = StyleSheet.create({
     borderRadius: 15,
     marginTop: 10,
     marginBottom: 10,
+  },
+  paragraph: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    marginTop: 7,
+    marginLeft:15,
   },
 });
 export default HomeScreen;

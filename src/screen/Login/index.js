@@ -390,8 +390,6 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    // width:'100%',
-    // height:'100%',
     padding: 20,
   },
   box: {
@@ -414,13 +412,10 @@ const styles = StyleSheet.create({
     marginLeft: 100,
   },
   textContain: {
-    // width:71,
-    // height:31
     paddingHorizontal: 20,
   },
   text: {
     color: '#A7C829',
-    // fontWeight: 'bold',
     fontSize: 30,
   },
   paragraph: {
@@ -430,7 +425,6 @@ const styles = StyleSheet.create({
   },
   medium: {
     width: '100%',
-    // height: 470,
     backgroundColor: CONSTANT.App.colors.boxBgColor,
     marginTop: 15,
     borderRadius: 20,
