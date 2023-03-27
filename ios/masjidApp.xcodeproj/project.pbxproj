@@ -57,6 +57,7 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = masjidApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8955F883306A3908D623FCFD /* Pods-masjidApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp.release.xcconfig"; path = "Target Support Files/Pods-masjidApp/Pods-masjidApp.release.xcconfig"; sourceTree = "<group>"; };
 		939D274B6138F11C27EE1C6F /* Pods-masjidApp-masjidAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masjidApp-masjidAppTests.release.xcconfig"; path = "Target Support Files/Pods-masjidApp-masjidAppTests/Pods-masjidApp-masjidAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		98779D6129CECD5300B2BEA3 /* masjidApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = masjidApp.entitlements; path = masjidApp/masjidApp.entitlements; sourceTree = "<group>"; };
 		9883A14929CD6CB4004A855C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "masjidApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9BB764A105D748109898027D /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		B32C4494BF93441884B48DAD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		13B07FAE1A68108700A75B9A /* masjidApp */ = {
 			isa = PBXGroup;
 			children = (
+				98779D6129CECD5300B2BEA3 /* masjidApp.entitlements */,
 				9883A14929CD6CB4004A855C /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -581,20 +583,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = masjidApp/masjidApp.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KP7Y268UL6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = masjidApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Al Tawheed";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.altawheed;
 				PRODUCT_NAME = masjidApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "masjidApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -609,19 +616,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_ENTITLEMENTS = masjidApp/masjidApp.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = KP7Y268UL6;
 				INFOPLIST_FILE = masjidApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Al Tawheed";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.altawheed;
 				PRODUCT_NAME = masjidApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "masjidApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
