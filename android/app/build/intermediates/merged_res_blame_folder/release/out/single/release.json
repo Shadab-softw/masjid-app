@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_bgimg.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_bgimg.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_paypal.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_paypal.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_zocial.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_calender.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_calender.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_newmuslim.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_newmuslim.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_axios_package.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_axios_package.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_moon1.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_moon1.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_video.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_video.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_playbtn.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_playbtn.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_campas.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_campas.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_event.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_event.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_dashboard.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_dashboard.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_prayer.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_prayer.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativedatepicker_date_icon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativedatepicker_date_icon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_entypo.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-hdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_antdesign.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_bell.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_bell.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_feather.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_feather.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-xhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_profiledrop.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_profiledrop.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_home.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_home.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_listen.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_listen.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_eventa.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_eventa.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_speakar.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_speakar.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_my_file_name.mp3.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/raw/my_file_name.mp3"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_morea.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_morea.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_moon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_moon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-xxxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_applogo.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_applogo.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-hdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_bgblack.jpg.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_bgblack.jpg"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_star2x.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_star2x.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xhdpi/ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_profile.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_profile.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_quranayatlogo.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_quranayatlogo.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_masjid.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_masjid.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_banner.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_banner.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-mdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_more.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_more.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_naat.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_naat.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_compass.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_compass.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_app.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/app.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_prayera.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_prayera.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_homea.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_homea.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeimageplaceholder_images_emptyimage.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeimageplaceholder_images_emptyimage.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_contactimg.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_contactimg.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_blue_masjid.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_blue_masjid.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/raw/node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_base.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_base.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/intermediates/res/merged/release/drawable-mdpi_src_assets_images_askimam.png.flat",
+        "source": "/Users/smartsoftwares/Desktop/masjid/masjid-app/android/app/build/generated/res/react/release/drawable-mdpi/src_assets_images_askimam.png"
+    }
+]
