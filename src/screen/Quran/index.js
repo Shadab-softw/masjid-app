@@ -37,14 +37,12 @@ const QuranScreen = ({ navigation }) => {
       );
       const result = await responseJson.json();
       setListChapter(result.chapters);
-      // console.log(result)
     } catch (err) {
       console.log(err);
     }
   };
 
   const verseHandler = item => {
-    // console.log("hiii",item)
     setChapterId(item.id);
     navigation.navigate(CONSTANT.App.screenNames.QuranTransScreen, { item });
   };

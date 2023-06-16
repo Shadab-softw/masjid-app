@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Office-Project\\React-Native-Project\\masjid-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+            "outputFile": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\shada\\.gradle\\caches\\transforms-2\\files-2.1\\596a2ab5c9fc9ad7db8a850d8a99e7a1\\appcompat-1.1.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\596a2ab5c9fc9ad7db8a850d8a99e7a1\\appcompat-1.1.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
