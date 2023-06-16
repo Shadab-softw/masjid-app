@@ -44,7 +44,7 @@ const Data1 = [
     type: 'feather',
     screenName: CONSTANT.App.screenNames.ChatList
   },
-  
+
   {
     id: 2,
     name: 'Donate',
@@ -87,10 +87,10 @@ const Data2 = [
     type: 'feather',
     screenName: CONSTANT.App.screenNames.HadeesScreen,
   },
- 
+
 ];
 const Data3 = [
-  
+
   {
     id: 7,
     name: 'Salah Time',
@@ -133,7 +133,7 @@ const Data4 = [
   //   type: 'feather',
   //   screenName: CONSTANT.App.screenNames.NewMuslimScreen,
   // },
-  
+
   // {
   //   id: 10,
   //   name: 'Contact Form',
@@ -142,7 +142,7 @@ const Data4 = [
   //   type: 'feather',
   //   screenName: CONSTANT.App.screenNames.ContactForm
   // },
- 
+
   {
     // id: 11,
     // name: 'Contact List',
@@ -185,11 +185,8 @@ const MoreScreen = ({ navigation }) => {
   const [showChat, setShowChat] = useState('');
   const [serviceData, setServiceData] = useState();
 
-  console.log("moresatte", state);
-
   const getPostServices = async () => {
     try {
-      // http://community.sadathussain.com/api/post?category_id=1
       const result = await fetch(`http://app.altawheedjc.org/api/post?category_id=1`, {
         method: 'post'
       })
@@ -228,17 +225,13 @@ const MoreScreen = ({ navigation }) => {
   };
 
   const handlenewMuslim = (name, screenName) => {
-    console.log('new muslim');
     if (name == 'New muslim support') {
-      console.log('ask');
-      // console.log('serviceData>>>>',JSON.stringify(serviceData,null,2));
       if (serviceData) {
         let isPresent = serviceData.map(item => {
           if (item.title.toLowerCase().includes('new muslim')) {
             return item;
           }
         });
-        console.log('isPresent>>>>', JSON.stringify(isPresent, null, 2));
         if (isPresent) {
           navigation.navigate(screenName, {
             data: isPresent,

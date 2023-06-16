@@ -25,7 +25,6 @@ import Ionicons from 'react-native-vector-icons/dist/Ionicons';
 const QuranTransScreen = ({ route, navigation }) => {
   let sound1, sound2, sound3, sound4, sound5, sound6;
   const { item } = route.params;
-  // console.log('chapterItem', item)
 
   const [Item, setItem] = useState(item);
   const [data, setData] = useState([]);
@@ -49,13 +48,10 @@ const QuranTransScreen = ({ route, navigation }) => {
 
   const getByChapter = async () => {
     try {
-      console.log(`http://api.quran.com/api/v3/chapters/${Item.id}/verses?recitation=7&translations=21&language=en&page=${pageCurrent}&text_type=words`,)
       const result = await fetch(
         `http://api.quran.com/api/v3/chapters/${Item.id}/verses?recitation=7&translations=21&language=en&page=${pageCurrent}&text_type=words`,
       );
-      console.log('result', result, pageCurrent, Item.id);
       const resJson = await result.json();
-      console.log('result', resJson);
       setData(data.concat(resJson.verses));
       setPageCurrent(pageCurrent + 1)
       setTotalPages(resJson.meta.total_pages);
@@ -66,7 +62,7 @@ const QuranTransScreen = ({ route, navigation }) => {
       //   setIsLoading(false)
     } catch (err) {
       setIsListEnd(true)
-      console.log('ffffff', err);
+      console.log('err', err);
       setIsLoading(false);
     }
   };
@@ -82,12 +78,9 @@ const QuranTransScreen = ({ route, navigation }) => {
       if (getData.length > 0 && getData !== undefined) {
         getAudioUrlIndex = currentIndex + 1;
       }
-      console.log('getDATA', getData[0].audio.url);
       sound1.getCurrentTime(seconds => {
-        console.log('pal', sound1.getDuration() === seconds);
         if (seconds >= sound1.getDuration()) {
           setCurrentIndex(getAudioUrlIndex);
-          console.log('paly again');
           // playSound(getData.audio.url)
         }
       });
@@ -95,7 +88,6 @@ const QuranTransScreen = ({ route, navigation }) => {
   };
 
   const playSound = (item, index) => {
-    // console.log(item)
 
     sound1 = new Sound(
       `https://audio.qurancdn.com/${item}`,
@@ -108,22 +100,13 @@ const QuranTransScreen = ({ route, navigation }) => {
         sound1.play(() => {
           sound1.release();
           // alert('succes')
-
-          console.log(
-            'duration in seconds: ' +
-            sound1.getDuration() +
-            ', sound1.getNumberOfLoops() ' +
-            sound1.getNumberOfLoops(),
-          );
         });
       },
     );
   };
 
   const onNextPlay = () => {
-    console.log('onNextPlay', sound1);
     if (sound1) {
-      console.log('onNextPlay');
       let getData = data.filter((i, index) => {
         if (currentIndex + 1 === index) {
           return i;
@@ -136,9 +119,7 @@ const QuranTransScreen = ({ route, navigation }) => {
   };
 
   const onPrevPlay = () => {
-    console.log('object');
     if (sound1) {
-      console.log('object');
       let getData = data.filter((i, index) => {
         if (currentIndex - 1 === index) {
           return i;
@@ -152,11 +133,9 @@ const QuranTransScreen = ({ route, navigation }) => {
 
   const onStopPlay = () => {
     let url = data[0];
-    console.log(url);
   };
 
   const resumeSound = (_item, index) => {
-    // console.log("toggle")
     if (sound1) {
       sound1.pause();
     }
@@ -165,7 +144,6 @@ const QuranTransScreen = ({ route, navigation }) => {
   const onClickHandler = (item, index) => {
     setCurrentIndex(index);
     setCurrentSelected(item.id);
-    // console.log(data)
     if (isPlaying) {
       playSound(item.audio.url);
       setIsplaying(false);
@@ -248,15 +226,11 @@ const QuranTransScreen = ({ route, navigation }) => {
         <View>
           <Text style={{ color: '#FFFFFF', fontSize: 17 }}>
             {item.words.map(word => {
-              // console.log(word.verse_key)
               return word.translation.text;
             })}
           </Text>
-          {/* {currentIndex ? <Text>this is hide </Text> : ''} */}
         </View>
       </View>
-      // </ScrollView>
-      //
     );
   };
 
@@ -285,7 +259,6 @@ const QuranTransScreen = ({ route, navigation }) => {
 
 
     }
-    // console.log("totalPages",totalPages)
     // if (totalPages === pageCurrent) {
     //   setIsLoading(false);
     //   return;
@@ -293,7 +266,6 @@ const QuranTransScreen = ({ route, navigation }) => {
     // // setPageCurrent(pageCurrent + 1);
     // getByChapter()
     // setIsLoading(true);
-    // // console.log("page",data.mata.total_pages)
     // // data.map(item=>{
     // //   if(item.page_number=== pageCurrent){
     // //     setIsLoadingfalse(false)
@@ -303,7 +275,6 @@ const QuranTransScreen = ({ route, navigation }) => {
   return (
 
     <BgImage>
-      {console.log(pageCurrent)}
       <View style={{ display: 'flex', flexDirection: 'row', marginTop: 40 }}>
         <TouchableOpacity
           style={styles.box}

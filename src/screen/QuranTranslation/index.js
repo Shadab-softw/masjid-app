@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable keyword-spacing */
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 // import all the components we are going to use
 import {
@@ -45,7 +45,6 @@ const { width, height } = Dimensions.get('window');
 
 // useEffect(async() => {
 //   const currentTrack = await TrackPlayer.getCurrentTrack();
-//   console.log("currentTrack",currentTrack)
 // },[TrackPlayer])
 
 
@@ -87,6 +86,8 @@ const QuranTransScreen = ({ route, navigation }) => {
   const [isListEnd, setIsListEnd] = useState(false);
   const isFocused = useIsFocused()
 
+  const flatListRef = useRef(null);
+
   useEffect(() => {
     setupIfNecessary();
     fetchChapter();
@@ -98,21 +99,24 @@ const QuranTransScreen = ({ route, navigation }) => {
     } else {
       await TrackPlayer.stop();
     }
-   
+
   }, [isFocused])
+
   useTrackPlayerEvents([Event.PlaybackTrackChanged], async event => {
-    console.log("event", event)
     if (
       event.type === Event.PlaybackTrackChanged &&
       event.nextTrack !== undefined
     ) {
 
       const track = await TrackPlayer.getTrack(event.nextTrack);
-      console.log("track", track)
       setCurrentIndex(track.id)
 
+      if (flatListRef.current) {
+        flatListRef.current.scrollToIndex({ index: track.id - 1, animated: true });
+      }
     }
   });
+
   const fetchChapter = async () => {
     try {
       const response = await fetch(`https://api.quran.com/api/v3/chapters/${item.id}/verses?recitation=1&translations=21&language=en&page=${pageCurrent}&text_type=words`);
@@ -129,7 +133,6 @@ const QuranTransScreen = ({ route, navigation }) => {
           temp.artist = '';
           chapterArr = [...chapterArr, temp]
         })
-        console.log("chapterArr", chapterArr, responseJson.verses)
         setUpPlayer(chapterArr)
         setPageCurrent(pageCurrent + 1)
         setTotalPages(responseJson.meta.total_pages);
@@ -167,7 +170,6 @@ const QuranTransScreen = ({ route, navigation }) => {
   };
   const onSkipToNext = async () => {
     const currentTrack = await TrackPlayer.getCurrentTrack();
-    console.log("currentTrack", currentTrack);
     await TrackPlayer.skipToNext(currentTrack);
   };
 
@@ -187,7 +189,6 @@ const QuranTransScreen = ({ route, navigation }) => {
       temp.artist = '';
       chapterArr = [...chapterArr, temp]
     })
-    console.log("togglePlayBack", chapterArr)
     await TrackPlayer.add(chapterArr);
     const currentTrack = await TrackPlayer.getCurrentTrack();
     if (currentTrack !== null) {
@@ -202,12 +203,10 @@ const QuranTransScreen = ({ route, navigation }) => {
 
   const onPlayAudio = async (item, index) => {
     await TrackPlayer.reset();
-    console.log("item", item,)
     const currentTrack = await TrackPlayer.getCurrentTrack();
 
     setCurrentIndex(item.id)
     let filter = chapter.filter(x => x.id >= item.id)
-    console.log("currentTrack", currentTrack, chapter, filter);
     const track = {
       id: item.id,
       url: `https://audio.qurancdn.com/${item.audio.url}`,
@@ -308,7 +307,6 @@ const QuranTransScreen = ({ route, navigation }) => {
           <View>
             <Text style={{ color: '#FFFFFF', fontSize: 17 }}>
               {item.words.map(word => {
-                // console.log(word.verse_key)
                 return word.translation.text;
               })}
 
@@ -364,7 +362,7 @@ const QuranTransScreen = ({ route, navigation }) => {
 
   return (
 
-    <ImageBackground resizeMode="stretch" style={{ width: width, height: "auto", position: 'relative' }}
+    <ImageBackground resizeMode="stretch" style={{ flex: 1, width: width, height: "auto", position: 'relative' }}
       source={CONSTANT.App.screenImages.bg_Image}>
       <View style={{ justifyContent: 'space-between', alignItems: 'center', padding: 0, width: '90%', flexDirection: 'row', marginTop: 24, display: 'flex' }}>
         <TouchableOpacity style={{ width: '20%', }}
@@ -406,7 +404,7 @@ const QuranTransScreen = ({ route, navigation }) => {
                 color: '#fff', fontSize: 16,
                 //  fontFamily: 'inter',
                 width: 100, marginTop: 10
-              }}>Verse 1</Text>
+              }}>Verse {item.id}</Text>
 
             </View>
             <View >
@@ -417,7 +415,8 @@ const QuranTransScreen = ({ route, navigation }) => {
       </View>
 
       <FlatList
-        style={{ paddingHorizontal: 25, }}
+        ref={flatListRef}
+        style={{ paddingHorizontal: 25, height: height * 0.57 }}
         data={chapter}
         keyExtractor={(item) => item.id}
         renderItem={renderChapter}
@@ -426,7 +425,7 @@ const QuranTransScreen = ({ route, navigation }) => {
         onEndReachedThreshold={0}
       />
 
-      <View style={{ width: "100%", zIndex: 1, backgroundColor: '#000', position: 'absolute', bottom: '16%', justifyContent: 'center', alignItems: 'center', paddingVertical: 18 }}>
+      <View style={{ width: "100%", backgroundColor: '#000', justifyContent: 'center', alignItems: 'center', paddingVertical: 18 }}>
         <Slider
           style={styles.progressContainer}
           value={progress.position}
@@ -436,7 +435,6 @@ const QuranTransScreen = ({ route, navigation }) => {
           minimumTrackTintColor="#A7C829"
           maximumTrackTintColor="#ccc"
           onSlidingComplete={async (value) => {
-            console.log("value", value)
             await TrackPlayer.seekTo(value)
           }}
         />

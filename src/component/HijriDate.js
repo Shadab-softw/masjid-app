@@ -30,7 +30,6 @@ const HijriDate = () => {
       const json = await response.json();
       setData(json.data);
       setHijriDate(json.data.hijri.day);
-      ki;
       setHijriMonth(json.data.hijri.month.en);
       setHijriYear(json.data.hijri.year);
     } catch (error) {
