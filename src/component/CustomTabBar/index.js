@@ -40,12 +40,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
 
   useEffect(async()=>{
     messaging().setBackgroundMessageHandler(async remoteMessage => {
-    //  Alert.alert('Message handled in the background!', JSON.stringify(remoteMessage));
-    //  console.log('Message handled in the background!', JSON.stringify(remoteMessage));
-     
      navigation.navigate(CONSTANT.App.screenNames.Chat, { imamId: remoteMessage.data.sender_id})
- 
- 
    });
    
      messaging().onMessage(async remoteMessage => {
@@ -56,12 +51,7 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
  
      });
      messaging().onNotificationOpenedApp(async remoteMessage => {
- 
-      //  console.log('onNotificationOpenedApp!', JSON.stringify(remoteMessage));
-      //  Alert.alert('onNotificationOpenedApp!', JSON.stringify(remoteMessage));
        navigation.navigate(CONSTANT.App.screenNames.Chat, { imamId: remoteMessage.data.sender_id})
- 
- 
      });
    
      messaging().getInitialNotification().then(async remoteMessage =>{ //when app closed
@@ -86,7 +76,6 @@ const CustomTabBar = ({state, descriptors, navigation}) => {
     <View style={styles.tab}>
       {state.routes.map((route, index) => {
         const {options} = descriptors[route.key];
-         {/* console.log("route>>>",JSON.stringify(route,null,2)); */}
         {
           /* const label =
                         options.tabBarLabel !== undefined

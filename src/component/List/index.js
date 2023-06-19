@@ -80,10 +80,6 @@ const styles = StyleSheet.create({
   },
 });
 export const ListComp = ({showData, onPress, navigation}) => {
-  // const onHandler=(item)=>{
-  //     console.log("item",item)
-
-  // }
   return (
     <>
       <FlatList

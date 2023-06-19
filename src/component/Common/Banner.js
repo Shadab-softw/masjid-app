@@ -32,7 +32,6 @@ const BannerImgComp = () => {
       );
       const result = await responseJson.json();
       setBanner(result?.data);
-      // console.log('banner>>>>>', result?.data);
     } catch (err) {
       console.log(err);
     }

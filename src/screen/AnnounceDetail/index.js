@@ -15,7 +15,6 @@ import Share from 'react-native-share';
 
 const AnnounceDetail = ({ navigation, route }) => {
   const { description, announceTitle } = route.params;
-  console.log('descc', description)
   const myCustomShare = async () => {
     const shareOption = {
       message: description

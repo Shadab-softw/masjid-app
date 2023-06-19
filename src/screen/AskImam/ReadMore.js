@@ -11,7 +11,6 @@ const ReadMoreComp = props => {
 
   const onTextLayout = useCallback(e => {
     setLengthMore(e.nativeEvent.lines.length >= 4); //to check the text is more than 4 lines or not
-    // console.log(e.nativeEvent);
   }, []);
 
   return (

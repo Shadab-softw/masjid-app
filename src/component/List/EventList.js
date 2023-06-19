@@ -245,10 +245,6 @@ export const FeaturedEventListComp = ({
   navigation,
   handleRefresh,
 }) => {
-  // const onHandler=(item)=>{
-  //     console.log("item",item)
-
-  // }
   return (
     <>
       <FlatList

@@ -171,7 +171,6 @@ export const UpEventListComp = ({
             }}
             refreshing={false}
             renderItem={({item}) => {
-              console.log('>>><<<', item.id);
               return (
                 <View>
                   <TouchableOpacity
@@ -243,10 +242,6 @@ export const FeaturedEventListComp = ({
   navigation,
   handleRefresh,
 }) => {
-  // const onHandler=(item)=>{
-  //     console.log("item",item)
-
-  // }
   return (
     <>
       <FlatList

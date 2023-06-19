@@ -28,7 +28,6 @@ import { FeatherIcon } from '../../constants/Icons';
 
 const AskImamSettingScreen = ({ navigation, route }) => {
   // const {data} = route.params;
-  // console.log('rrrrrrrrrrr', data[1]);
   const [maleChecked, setMaleChecked] = useState('Male');
   const [femaleChecked, setFemaleChecked] = useState('Female');
   const [selectedButton, setSelectedButton] = useState(false);
@@ -50,7 +49,6 @@ const AskImamSettingScreen = ({ navigation, route }) => {
   const [Subject, setSubject] = useState('');
   const [Description, setDescription] = useState('');
   const [askImam, setAskImam] = useState([])
-  console.log('askkk', askImam)
   useEffect(() => {
     getAskImam()
 
@@ -61,8 +59,6 @@ const AskImamSettingScreen = ({ navigation, route }) => {
         method: 'post'
       })
       const resJson = await result.json()
-      console.log('askImamm', resJson.post);
-
       setAskImam(resJson.post[1])
     }
     catch (err) {
@@ -106,10 +102,6 @@ const AskImamSettingScreen = ({ navigation, route }) => {
     );
 
     const response = await result.json();
-    console.log('result', response.access_token);
-
-    console.log('gggggggggg', Birthdate__c);
-
     if (response.access_token) {
       const data = {
         First_Name__c,
@@ -124,7 +116,6 @@ const AskImamSettingScreen = ({ navigation, route }) => {
         Description,
       };
 
-      console.log("gender", data);
       try {
         const response1 = await fetch(
           `https://altawheedjc.my.salesforce.com/services/data/v20.0/sobjects/Case`,
@@ -138,7 +129,6 @@ const AskImamSettingScreen = ({ navigation, route }) => {
           },
         );
         const result = await response1.json();
-        console.log('responsne', result);
 
         if (result.success === true) {
           alert('successfully submited');
