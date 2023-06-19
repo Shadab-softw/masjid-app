@@ -121,8 +121,6 @@ const AskImamScreen = ({ navigation, route }) => {
           },
         );
         const result = await response1.json();
-        console.log('responsne', result);
-
         if (result.success === true) {
           alert('successfully submited');
         } else {

@@ -21,7 +21,6 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
   const [count, setCount] = useState(0);
   let lastId = 0;
 
-  // console.log('salahn', salahTimimg);
   useEffect(() => {
     getWorldPraytime();
     getLocalPraytime();
@@ -33,7 +32,6 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
   useEffect(async () => {
     try {
       PushNotification.getScheduledLocalNotifications(rn => {
-        // console.log('SN --- ', rn);
       });
       PushNotification.removeAllDeliveredNotifications();
       PushNotification.cancelAllLocalNotifications();
@@ -48,25 +46,21 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
 
 
   useEffect(async () => {
-    // console.log("todaySalah",salahTimimg)
     if (salahTimimg) {
       salahTimimg.map((item, index) => {
         lastId++;
         let date = item.date.gregorian.date;
 
         let dateA = date.split('-');
-        // console.log("date",dateA[2]+"/"+dateA[1]+"/"+dateA[0])
         let finalDate = dateA[2] + '/' + dateA[1] + '/' + dateA[0];
         let timestamp = item.date.timestamp;
         Object.keys(item.timings).forEach((key) => {
           if (key !== 'Imsak' && key !== 'Sunrise' && key !== 'Sunset' && key !== 'Midnight') {
             let time = item.timings[key].split(' ');
             let datetime = date + ' ' + time[0] + ':00';
-            // console.log("key",key, date + " " + time[0]+":00")
             // setAzan(timestamp, time[0], key, finalDate)
           }
         });
-        // console.log("item", date)
       });
     }
 
@@ -74,21 +68,16 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
 
   const setAzan = async (date, time, key, dtate1) => {
     let today = new Date().getTime();
-    // console.log("time",time)
     time = time.split(':');
 
     dtate1 = dtate1 + ' ' + time[0] + ':' + time[1] + ':00';
-    // console.log("time",dtate1)
     let dstetime = new Date(dtate1);
     // dstetime.setHours(timeHm[0])
     // dstetime.setMinutes(timeHm[1])
     // dstetime.setSeconds(1)
-    // console.log("setAzan",dstetime)
     // let timeHm = time.split(":")
-    // console.log("dstetime", dstetime.getTime())
     const fireDate = dstetime;
     if (dstetime.getTime() > today) {
-      // console.log("setAzan", fireDate, dtate1)
       PushNotification.getScheduledLocalNotifications((data) => {
         if (data.length > 0) {
           data.map((item) => {
@@ -107,9 +96,7 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
     }
 
     //ReactNativeAN.parseDate(new Date(Date.now() +5* 30000));     // set the fire date for 1 second from now
-    // console.log("setAzan", fireDate)
     // if (lastId === 1) {
-    // console.log("fireDate", fireDate)
 
     // const alarmNotifData = {
     //   title: key + " Adhan time",
@@ -130,7 +117,6 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
   const getWorldPraytime = async () => {
     var mS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
     var checkLocation = classifyPoint(CONSTANT.App.BOUNDRIES, [currentLongitude, currentLatitude]);
-    // console.log("checkLocation", checkLocation)
     let lat = currentLatitude;
     let lng = currentLongitude;
     if (checkLocation === 0 || checkLocation === -1) {
@@ -138,7 +124,6 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
       lng = '-74.0710915';
     }
     try {
-      // console.log('world time>>>>',`http://api.aladhan.com/v1/calendar?latitude=${lat}&longitude=${lng}&method=2&month=${currentMonth}&year=2022`)
       const result = await fetch(`http://api.aladhan.com/v1/calendar?latitude=${lat}&longitude=${lng}&method=2&month=${currentMonth}&year=2022`, {
         method: 'get',
       });
@@ -147,9 +132,7 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
         let date = new Date();
         let ddate = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
         let today = ddate + ' ' + (mS[currentMonth - 1]) + ' ' + date.getFullYear();
-        // console.log('today>>>>',today)
         let find = response.data.find(x => x.date.readable === today);
-        // console.log('response.data>>>>', JSON.stringify(response.data,null,2));
         setSalahTiming(response.data);
         if (find) {
           setTotaySalah(find.timings);
@@ -171,7 +154,6 @@ const PrayerTimeComp = ({ currentLongitude, currentLatitude, currentMonth, textD
         method: 'get',
       });
       const response = await result.json();
-      // console.log('ssss>>>>',response.data);
       setLocalPrayerTime(response.data);
     }
     catch (err) {

@@ -26,13 +26,9 @@ const UserListScreen = ({ navigation }) => {
   const { auth, state } = useAuth();
   const [isCheck, setIscheck] = useState('');
   const isFocused = useIsFocused();
-
-// console.log('<<<state>>>',JSON.stringify(state,null,2));
-// console.log('chatlist', chatlist);
   // const userRole=state.user.user_role
   useEffect(() => {
     const unsubscribe = messaging().onMessage(async remoteMessage => {
-      console.log('called>>>>');
     //  Alert.alert('Message handled in the background!', JSON.stringify(remoteMessage));
     getImamList();
     UserListScreen();
@@ -45,7 +41,6 @@ const UserListScreen = ({ navigation }) => {
       reciever_id: state.user.id,
     };
     const result = await imamListApi(data);
-    // console.log('getchatimmalist',JSON.stringify(result,null,2));
     if (request > 0){
       setRequest(0);
       let totalMessage = 0;
@@ -77,7 +72,6 @@ const UserListScreen = ({ navigation }) => {
     }
   if (state.user !== undefined) {
       setIscheck(state.user.user_role);
-      // console.log('statte', state.user.user_role);
     }
   }, [state.user,isFocused,getUserList]);
 
@@ -116,7 +110,6 @@ const UserListScreen = ({ navigation }) => {
   //      recieverId:state.user.id,
   //    };
   //    const result = await getChatApi(data);
-  //    console.log(',<------', result);
   //  };
 
   return (
@@ -134,7 +127,6 @@ const UserListScreen = ({ navigation }) => {
               <Text>Today</Text>
               <View >
                 {chatlist?.map(item => {
-                    {/* console.log('item pass>>', JSON.stringify(item,null,2)); */}
                     return (
                       <>
                           <ListItem key={item.id} containerStyle={{ backgroundColor: 'transparent' }}

@@ -6,7 +6,6 @@ const initialState={
 }
 
 const changeScreeen=(state=initialState,action)=>{
-    console.log("swtichhhhh",action.payload)
     switch(action.type){
         case 'INCREAMENT':
             return {

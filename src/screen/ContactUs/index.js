@@ -72,7 +72,6 @@ const ContactUsScreen = ({ navigation }) => {
         body: JSON.stringify(data),
 
       });
-      console.log('result', result);
       if (result.ok === true) {
         // setModalVisible(true)
         alert('Sucsessully sent');

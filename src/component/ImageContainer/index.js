@@ -17,33 +17,18 @@ const styles = StyleSheet.create({
 });
 const BgImage = ({children}) => {
   const [initialRoute, setInitialRoute] = useState(CONSTANT.App.tabMenu.homeTAb);
-
   // const dispatch=useDispatch()
 // dispatch(changeScreen(initialRoute))
   const {auth,state}=useAuth()
   const navigation=useNavigation()
   const [loading, setLoading] = useState(true);
-
-
- 
-
    const userChatHandler = async () => {
-   
      const data = {
        senderId: imamId,
        recieverId:state.user.id,
      }
      const result = await getChatApi(data)
-     console.log(",<------", result)
-   
-   
    }
-
-
-        // Check whether an initial notification is available
-
-
-  
   return (
     <ImageBackground resizeMode="stretch"
       source={CONSTANT.App.screenImages.bg_Image}
