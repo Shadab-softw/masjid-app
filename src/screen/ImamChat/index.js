@@ -46,7 +46,6 @@ const ImamChatScreen = () => {
       recieverId: 1
     }
     const result = await getChatApi(data)
-    // console.log("result", result)
 
     if (result) {
       setData(result.chat)
@@ -55,7 +54,7 @@ const ImamChatScreen = () => {
 
   }
 
-  const selectData=useSelector(state=>state)
+  const selectData = useSelector(state => state)
   console.log(selectData)
   const onSendMessage = async () => {
     // console.log(text)

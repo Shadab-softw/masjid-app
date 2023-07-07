@@ -1,10 +1,11 @@
 /* eslint-disable prettier/prettier */
-import React, { useState, useEffect,  } from 'react';
+import React, { useState, useEffect, } from 'react';
 import {
   Text,
   View,
   ScrollView,
   StyleSheet,
+  SafeAreaView,
 } from 'react-native';
 import CONSTANT from '../../constants';
 import { BackgroundImage } from 'react-native-elements/dist/config';
@@ -76,7 +77,7 @@ const EventScreen = ({ navigation }) => {
   };
 
   return (
-    <View
+    <SafeAreaView
       onTouchMove={onRefreshHandler}
       style={{ width: '100%', height: '100%' }}>
       <BackgroundImage
@@ -118,7 +119,7 @@ const EventScreen = ({ navigation }) => {
           </View>
         </CustomView>
       </BackgroundImage>
-    </View>
+    </SafeAreaView>
   );
 };
 

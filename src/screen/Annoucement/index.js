@@ -67,7 +67,7 @@ const AnnounceScreen = ({ navigation, showData }) => {
   };
   return (
     <BgImage>
-      <View style={{ paddingHorizontal: 15 }}>
+      <View style={{ paddingHorizontal: 15, paddingVertical: 20 }}>
         <View>
           <View
             style={{

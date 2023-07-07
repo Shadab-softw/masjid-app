@@ -62,6 +62,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-start',
     alignItems: 'center',
+    paddingVertical: 20,
   },
   logo: {
     width: 99,

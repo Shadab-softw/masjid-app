@@ -9,6 +9,7 @@ import {
   Image,
   Modal,
   KeyboardAvoidingView,
+  SafeAreaView,
   Alert,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -405,6 +406,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-start',
     alignItems: 'center',
+    paddingVertical: 20,
   },
   logo: {
     width: 99,

@@ -1,19 +1,19 @@
 import CONSTANT from "../../constants";
 
-const initialState={
-    data:CONSTANT.App.tabMenu.homeTAb
+const initialState = {
+    data: CONSTANT.App.tabMenu.homeTAb
 
 }
 
-const changeScreeen=(state=initialState,action)=>{
-    console.log("swtichhhhh",action.payload)
-    switch(action.type){
+const changeScreeen = (state = initialState, action) => {
+
+    switch (action.type) {
         case 'INCREAMENT':
             return {
-                data:action.payload
+                data: action.payload
             }
 
-            default :return state
+        default: return state
     }
 }
 

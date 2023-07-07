@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_calender.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_calender.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_moon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_moon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_bgblack.jpg.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_bgblack.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_profile.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_feather.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_feather.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativedatepicker_date_icon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativedatepicker_date_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_octicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_octicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_moon1.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_moon1.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_video.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_video.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_prayera.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_prayera.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeimageplaceholder_images_emptyimage.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeimageplaceholder_images_emptyimage.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_bgimg.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_bgimg.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-xhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_newmuslim.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_newmuslim.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_axios_package.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_axios_package.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontawesome5free_meta.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_zocial.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_zocial.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_home.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_home.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialcommunityicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_campas.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_campas.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_speakar.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_speakar.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_star2x.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_star2x.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_prayer.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_prayer.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_masjid.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_masjid.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_bell.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_bell.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_materialicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_materialicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_profiledrop.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_profiledrop.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_paypal.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_paypal.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_banner.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_applogo.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_applogo.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_simplelineicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_morea.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_morea.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_base.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_base.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_homea.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_homea.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_playbtn.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_playbtn.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_compass.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_compass.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-hdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_listen.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_listen.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_eventa.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_eventa.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_more.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_more.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_foundation.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_foundation.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_entypo.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_feather.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_feather.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_quranayatlogo.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_quranayatlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_askimam.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_askimam.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_adaptive_back.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_contactimg.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_contactimg.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_entypo.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_entypo.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome5free.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_event.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_event.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_antdesign.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_adaptive_fore.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-xxxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_app.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\app.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_ionicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_ionicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_naat.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_naat.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_antdesign.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_antdesign.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_dashboard.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_dashboard.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_src_assets_images_blue_masjid.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-mdpi\\src_assets_images_blue_masjid.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_my_file_name.mp3.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\my_file_name.mp3"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_evilicons.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_evilicons.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_glyphmaps_fontisto.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_glyphmaps_fontisto.json"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\drawable-xxhdpi\\node_modules_reactnavigation_stack_src_views_assets_backicon.png"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\build\\intermediates\\res\\merged\\release\\raw_node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json.flat",
+        "source": "C:\\Users\\hp\\Desktop\\react-native project\\new masjid\\masjid-app\\android\\app\\src\\main\\res\\raw\\node_modules_reactnativevectoricons_dist_glyphmaps_fontawesome.json"
+    }
+]

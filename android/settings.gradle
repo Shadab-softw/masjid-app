@@ -9,4 +9,5 @@ include ':@react-native-firebase_messaging'
 project(':@react-native-firebase_messaging').projectDir = new File(rootProject.projectDir, './../node_modules/@react-native-firebase/messaging/android')
 include ':react-native-sensors'
 project(':react-native-sensors').projectDir = new File(rootProject.projectDir,  '../node_modules/react-native-sensors/android')
-
+include ':react-native-hijri-date-picker-android'
+project(':react-native-hijri-date-picker-android').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-hijri-date-picker-android/android')

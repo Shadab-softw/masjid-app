@@ -9,6 +9,7 @@ import {
   View,
   ScrollView,
   StyleSheet,
+  SafeAreaView,
   Image,
   Dimensions,
   Linking,
@@ -16,7 +17,7 @@ import {
 import Geolocation from '@react-native-community/geolocation';
 import CustomHeader from '../../component/CustomHeader';
 import CONSTANT from '../../constants';
-import { Icon,} from 'react-native-elements';
+import { Icon, } from 'react-native-elements';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import CustomButton from '../../component/CustomButton';
 import { UpEventListComp } from '../../component/List/EventList';
@@ -276,244 +277,245 @@ const HomeScreen = ({ navigation }) => {
   };
 
   return (
-    <BackgroundImage
-      source={CONSTANT.App.screenImages.bg_Image}
-      style={{ flex: 1, paddingHorizontal: 15 }}>
-      <CustomHeader
-        home
-        image={CONSTANT.App.screenImages.logo}
-        icon={CONSTANT.App.screenImages.bell}
-        onPress={() => getAnnouncement()}
-        OnLongPress={async () => {
-          try {
-            await logout();
-          } catch (err) {
-            console.log(err);
-          }
-        }}
-      />
+    <SafeAreaView style={{ flex: 1 }}>
+      <BackgroundImage
+        source={CONSTANT.App.screenImages.bg_Image}
+        style={{ flex: 1, paddingHorizontal: 15 }}>
+        <CustomHeader
+          home
+          image={CONSTANT.App.screenImages.logo}
+          icon={CONSTANT.App.screenImages.bell}
+          onPress={() => getAnnouncement()}
+          OnLongPress={async () => {
+            try {
+              await logout();
+            } catch (err) {
+              console.log(err);
+            }
+          }}
+        />
 
-<View style={{ width: '100%' }}>
+        <View style={{ width: '100%' }}>
           <Text style={[styles.paragraph]}>
             Welcome To Al-Tawheed Islamic Center!
           </Text>
         </View>
 
-      <ScrollView showsVerticalScrollIndicator={false} style={{ marginTop: 10 }}>
-        <View style={{ padding: 10 }}>
-          <HijriDate />
-          <View
-            style={{
-              width: '100%',
-              height: 140,
-              borderRadius: 15,
-              padding: 10,
-              marginTop: 25,
-              backgroundColor: 'rgba(255, 255, 255, 0.2)',
-            }}>
+        <ScrollView showsVerticalScrollIndicator={false} style={{ marginTop: 10 }}>
+          <View style={{ padding: 10 }}>
+            <HijriDate />
             <View
               style={{
-                display: 'flex',
-                flexDirection: 'row',
-                marginRight: 93,
-                top: 8,
+                width: '100%',
+                height: 140,
+                borderRadius: 15,
+                padding: 10,
+                marginTop: 25,
+                backgroundColor: 'rgba(255, 255, 255, 0.2)',
               }}>
-              <Image
-                source={CONSTANT.App.screenImages.speakar}
-                style={{ width: 22, height: 22, bottom: 5 }}
-              />
-
-              <Text
+              <View
                 style={{
-                  fontSize: 20,
-                  lineHeight: 19,
-                  color: '#A7C829',
-                  left: 4,
-                  width: '100%',
+                  display: 'flex',
+                  flexDirection: 'row',
+                  marginRight: 93,
+                  top: 8,
                 }}>
-                Announcement
-              </Text>
-            </View>
-            <View style={{ overflow: 'hidden' }}>
-              <View>
+                <Image
+                  source={CONSTANT.App.screenImages.speakar}
+                  style={{ width: 22, height: 22, bottom: 5 }}
+                />
+
                 <Text
                   style={{
-                    top: 75,
-                    textAlign: 'right',
-                    color: '#A8C829',
-                    fontSize: 18,
-                    height: 17,
-                    right: 10,
+                    fontSize: 20,
+                    lineHeight: 19,
+                    color: '#A7C829',
+                    left: 4,
+                    width: '100%',
                   }}>
-                  <TouchableOpacity
-                    onPress={() =>
-                      navigation.navigate(CONSTANT.App.screenNames.Announce)
-                    }
-                    style={{ alignItems: 'center', justifyContent: 'center' }}
-                  >
-                    <Text
-                      style={{
-                        color: '#A8C829',
-                        fontSize: 16,
-                      }}>
-                      See All
-                    </Text>
-                  </TouchableOpacity>
+                  Announcement
                 </Text>
               </View>
-              {announce.length > 0 &&
-                <Carousel
-                  //   delay={2000}
-                  style={[layoutStyle, { overflow: 'hidden' }]}
-                  autoplay={false}
-                  //   pageInfo
-                  pagingEnabled
-                  bullets={true}
-                  chosenBulletStyle={{
-                    backgroundColor: 'gray',
-                    color: 'white',
-                    fontSize: 20,
-                    width: 14,
-                    height: 14,
-                  }}
-                  contentContainerStyle={{
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: 'auto',
-                  }}
-                  bulletStyle={{
-                    backgroundColor: '#b3afaf',
-                    borderWidth: 0,
-                    color: 'white',
-                    height: 14,
-
-                    width: 14,
-                  }}
-                  bulletsContainerStyle={{
-                    marginRight: 160,
-                    marginBottom: 95,
-                    borderWidth: 1,
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'space-around',
-                    borderStyle: 'solid',
-                    borderColor: 'rgba(157, 157, 157, 0.2)',
-                    backgroundColor: 'rgba(157, 157, 157, 0.2)',
-                    width: '20%',
-                    height: '10%',
-                    marginLeft: '4%',
-                    borderRadius: 20,
-                  }}>
-                  {announce?.map((item) => {
-                    return (
-                      <View
-                        key={item.title}
-                        style={[
-                          layoutStyle,
-                          {
-                            flex: 1,
-                            display: 'flex',
-                            flexDirection: 'column',
-                            alignItems: 'center',
-                            overflow: 'hidden',
-                          },
-                        ]}>
-                        <View>
-                          <TouchableOpacity
-                            onPress={() =>
-                              navigation.navigate(
-                                CONSTANT.App.screenNames.AnnounceDetail,
-                                {
-                                  announceTitle: item.title,
-                                  description: removeHtml(item.description),
-                                }
-                              )
-                            }>
-                            <View>
-
-                              <ReadMoreDesc text={removeHtml(item?.description)} />
-
-                            </View>
-                          </TouchableOpacity>
-                        </View>
-                      </View>
-                    );
-                  }
-                  )}
-                </Carousel>
-              }
-            </View>
-          </View>
-          <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
-            <Text style={styles.text}>Verse of the day</Text>
-          </View>
-          <View style={styles.verseCard}>
-            <Text
-              style={{
-                color: '#fff',
-                fontSize: 17,
-                // width: '100%',
-                // fontWeight: '300',
-                lineHeight: 20,
-                // fontStyle: 'normal',
-                // top: 10,
-              }}>
-              {/* {verseData?.eng_verse} */}
-
-            </Text>
-            <ReadMoreComp />
-            <View
-              style={{
-                display: 'flex',
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                top: 20,
-                marginBottom: 10,
-              }}>
-              <View style={{ display: 'flex', flexDirection: 'row' }}>
-                <TouchableOpacity onPress={play ? onStop : onPlay}>
-                  {play ? (
-                    <Ionicons
-                      name="volume-high-outline"
-                      style={{ fontSize: 25, color: '#a7c829' }}
-                    />
-                  ) : (
-                    <Ionicons
-                      name="volume-mute-outline"
-                      style={{ fontSize: 25, color: '#a7c829' }}
-                    />
-                  )}
-                </TouchableOpacity>
-                <TouchableOpacity onPress={play ? onStop : onPlay}>
+              <View style={{ overflow: 'hidden' }}>
+                <View>
                   <Text
                     style={{
-                      color: '#a7c829',
-                      left: 5,
-                      width: 70,
-                      fontSize: 17,
+                      top: 75,
+                      textAlign: 'right',
+                      color: '#A8C829',
+                      fontSize: 18,
+                      height: 17,
+                      right: 10,
                     }}>
-                    Listen
+                    <TouchableOpacity
+                      onPress={() =>
+                        navigation.navigate(CONSTANT.App.screenNames.Announce)
+                      }
+                      style={{ alignItems: 'center', justifyContent: 'center' }}
+                    >
+                      <Text
+                        style={{
+                          color: '#A8C829',
+                          fontSize: 16,
+                        }}>
+                        See All
+                      </Text>
+                    </TouchableOpacity>
                   </Text>
-                </TouchableOpacity>
-              </View>
-              <View>
-                <TouchableOpacity style={styles.box1} onPress={myCustomShare}>
-                  <AntDesign name="sharealt" size={22} color="#a7c829" />
-                </TouchableOpacity>
+                </View>
+                {announce.length > 0 &&
+                  <Carousel
+                    //   delay={2000}
+                    style={[layoutStyle, { overflow: 'hidden' }]}
+                    autoplay={false}
+                    //   pageInfo
+                    pagingEnabled
+                    bullets={true}
+                    chosenBulletStyle={{
+                      backgroundColor: 'gray',
+                      color: 'white',
+                      fontSize: 20,
+                      width: 14,
+                      height: 14,
+                    }}
+                    contentContainerStyle={{
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      height: 'auto',
+                    }}
+                    bulletStyle={{
+                      backgroundColor: '#b3afaf',
+                      borderWidth: 0,
+                      color: 'white',
+                      height: 14,
+
+                      width: 14,
+                    }}
+                    bulletsContainerStyle={{
+                      marginRight: 160,
+                      marginBottom: 95,
+                      borderWidth: 1,
+                      display: 'flex',
+                      flexDirection: 'row',
+                      justifyContent: 'space-around',
+                      borderStyle: 'solid',
+                      borderColor: 'rgba(157, 157, 157, 0.2)',
+                      backgroundColor: 'rgba(157, 157, 157, 0.2)',
+                      width: '20%',
+                      height: '10%',
+                      marginLeft: '4%',
+                      borderRadius: 20,
+                    }}>
+                    {announce?.map((item) => {
+                      return (
+                        <View
+                          key={item.title}
+                          style={[
+                            layoutStyle,
+                            {
+                              flex: 1,
+                              display: 'flex',
+                              flexDirection: 'column',
+                              alignItems: 'center',
+                              overflow: 'hidden',
+                            },
+                          ]}>
+                          <View>
+                            <TouchableOpacity
+                              onPress={() =>
+                                navigation.navigate(
+                                  CONSTANT.App.screenNames.AnnounceDetail,
+                                  {
+                                    announceTitle: item.title,
+                                    description: removeHtml(item.description),
+                                  }
+                                )
+                              }>
+                              <View>
+
+                                <ReadMoreDesc text={removeHtml(item?.description)} />
+
+                              </View>
+                            </TouchableOpacity>
+                          </View>
+                        </View>
+                      );
+                    }
+                    )}
+                  </Carousel>
+                }
               </View>
             </View>
+            <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
+              <Text style={styles.text}>Verse of the day</Text>
+            </View>
+            <View style={styles.verseCard}>
+              <Text
+                style={{
+                  color: '#fff',
+                  fontSize: 17,
+                  // width: '100%',
+                  // fontWeight: '300',
+                  lineHeight: 20,
+                  // fontStyle: 'normal',
+                  // top: 10,
+                }}>
+                {/* {verseData?.eng_verse} */}
 
-          </View>
+              </Text>
+              <ReadMoreComp />
+              <View
+                style={{
+                  display: 'flex',
+                  flexDirection: 'row',
+                  justifyContent: 'space-between',
+                  top: 20,
+                  marginBottom: 10,
+                }}>
+                <View style={{ display: 'flex', flexDirection: 'row' }}>
+                  <TouchableOpacity onPress={play ? onStop : onPlay}>
+                    {play ? (
+                      <Ionicons
+                        name="volume-high-outline"
+                        style={{ fontSize: 25, color: '#a7c829' }}
+                      />
+                    ) : (
+                      <Ionicons
+                        name="volume-mute-outline"
+                        style={{ fontSize: 25, color: '#a7c829' }}
+                      />
+                    )}
+                  </TouchableOpacity>
+                  <TouchableOpacity onPress={play ? onStop : onPlay}>
+                    <Text
+                      style={{
+                        color: '#a7c829',
+                        left: 5,
+                        width: 70,
+                        fontSize: 17,
+                      }}>
+                      Listen
+                    </Text>
+                  </TouchableOpacity>
+                </View>
+                <View>
+                  <TouchableOpacity style={styles.box1} onPress={myCustomShare}>
+                    <AntDesign name="sharealt" size={22} color="#a7c829" />
+                  </TouchableOpacity>
+                </View>
+              </View>
 
-          <View
-            style={{
-              marginTop: 20,
-              marginRight: 3,
-              overflow: 'hidden',
-            }}>
-            <BannerImgComp />
+            </View>
 
-            {/* <View style={{ height: 110, marginTop: 25, marginLeft: -5 }}>
+            <View
+              style={{
+                marginTop: 20,
+                marginRight: 3,
+                overflow: 'hidden',
+              }}>
+              <BannerImgComp />
+
+              {/* <View style={{ height: 110, marginTop: 25, marginLeft: -5 }}>
               <ScrollView
                 horizontal={true}
                 showsHorizontalScrollIndicator={false}>
@@ -560,190 +562,190 @@ const HomeScreen = ({ navigation }) => {
                 })}
               </ScrollView>
             </View> */}
-          </View>
-
-          <View
-            style={[
-              styles.showAll,
-              { paddingBottom: -5, marginTop: 20, paddingHorizontal: 10 },
-            ]}>
-            <Text
-              style={{
-                fontSize: 24,
-                lineHeight: 24,
-                color: '#ffff',
-              }}>
-              Upcoming Events
-            </Text>
-            <TouchableOpacity
-              onPress={() =>
-                navigation.navigate(CONSTANT.App.tabMenu.eventTab)
-              }>
-              <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
-            </TouchableOpacity>
-          </View>
-          <ScrollView
-            verticle={true}
-            style={{ marginTop: 2, marginleft: 10, zIndex: -1 }}
-            showsVerticalScrollIndicator={false}>
-            <UpEventListComp
-              navigation={navigation}
-              limits={3}
-            // handleRefresh={onRefreshHandler}
-            />
-          </ScrollView>
-
-          <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
-            <Text style={styles.text}>Today's - Salah Time</Text>
-            <TouchableOpacity
-              onPress={() =>
-                navigation.navigate(CONSTANT.App.tabMenu.prayerTab, {
-                  currentLatitude,
-                  currentLongitude,
-                  currentMonth,
-                  setCurrentMonth,
-                })
-              }>
-              <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
-            </TouchableOpacity>
-          </View>
-          <PrayerTimeComp
-            currentLatitude={currentLatitude}
-            currentLongitude={currentLongitude}
-            currentMonth={currentMonth}
-          />
-          <View
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              paddingBottom: 18,
-              paddingHorizontal: 10,
-              marginTop:20,
-            }}>
-            <Text
-              style={{
-                fontSize: 24,
-                lineHeight: 24,
-                color: '#ffff',
-                // top: '4%',
-              }}>
-              Live Stream
-            </Text>
-          </View>
-          <TouchableOpacity
-            onPress={() =>
-              // navigation.navigate(CONSTANT.App.screenNames.liveStream)
-            Linking.openURL('https://vimeo.com/event/2318472/chat/')
-
-            }
-            style={{
-              width: '100%',
-              height: 250,
-              backgroundColor: '#1a1d2e',
-              marginTop: 10,
-              borderRadius: 15,
-            }}>
-            <View style={{ width: '100%', height: 190 }}>
-              <Image
-                source={require('../../assets/images/video.png')}
-                style={{ width: '100%' }}
-                resizeMode="stretch"
-              />
-
-              <View style={{ position: 'absolute', top: '40%', left: '41%' }}>
-                <Image source={require('../../assets/images/playBtn.png')} />
-              </View>
             </View>
 
-            <View style={{ marginLeft: 10 }}>
-              <Text style={{ marginLeft: 5, color: '#FFFFFF', fontSize: 17 }}>
-                Speech | Ikhlaak E Hasna
-              </Text>
-              <View
+            <View
+              style={[
+                styles.showAll,
+                { paddingBottom: -5, marginTop: 20, paddingHorizontal: 10 },
+              ]}>
+              <Text
                 style={{
-                  flexDirection: 'row',
-                  justifyContent: 'space-between',
-                  alignItems: 'center',
+                  fontSize: 24,
+                  lineHeight: 24,
+                  color: '#ffff',
                 }}>
+                Upcoming Events
+              </Text>
+              <TouchableOpacity
+                onPress={() =>
+                  navigation.navigate(CONSTANT.App.tabMenu.eventTab)
+                }>
+                <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
+              </TouchableOpacity>
+            </View>
+            <ScrollView
+              verticle={true}
+              style={{ marginTop: 2, marginleft: 10, zIndex: -1 }}
+              showsVerticalScrollIndicator={false}>
+              <UpEventListComp
+                navigation={navigation}
+                limits={3}
+              // handleRefresh={onRefreshHandler}
+              />
+            </ScrollView>
+
+            <View style={[styles.showAll, { paddingHorizontal: 10 }]}>
+              <Text style={styles.text}>Today's - Salah Time</Text>
+              <TouchableOpacity
+                onPress={() =>
+                  navigation.navigate(CONSTANT.App.tabMenu.prayerTab, {
+                    currentLatitude,
+                    currentLongitude,
+                    currentMonth,
+                    setCurrentMonth,
+                  })
+                }>
+                <Text style={{ color: '#A7C829', fontSize: 18 }}>See all</Text>
+              </TouchableOpacity>
+            </View>
+            <PrayerTimeComp
+              currentLatitude={currentLatitude}
+              currentLongitude={currentLongitude}
+              currentMonth={currentMonth}
+            />
+            <View
+              style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+                paddingBottom: 18,
+                paddingHorizontal: 10,
+                marginTop: 20,
+              }}>
+              <Text
+                style={{
+                  fontSize: 24,
+                  lineHeight: 24,
+                  color: '#ffff',
+                }}>
+                Live Stream
+              </Text>
+            </View>
+            <TouchableOpacity
+              onPress={() =>
+                // navigation.navigate(CONSTANT.App.screenNames.liveStream)
+                Linking.openURL('https://vimeo.com/event/2318472/chat/')
+
+              }
+              style={{
+                width: '100%',
+                height: 250,
+                backgroundColor: '#1a1d2e',
+                marginTop: 10,
+                borderRadius: 15,
+              }}>
+              <View style={{ width: '100%', height: 190 }}>
+                <Image
+                  source={require('../../assets/images/video.png')}
+                  style={{ width: '100%' }}
+                  resizeMode="stretch"
+                />
+
+                <View style={{ position: 'absolute', top: '40%', left: '41%' }}>
+                  <Image source={require('../../assets/images/playBtn.png')} />
+                </View>
+              </View>
+
+              <View style={{ marginLeft: 10 }}>
+                <Text style={{ marginLeft: 5, color: '#FFFFFF', fontSize: 17 }}>
+                  Speech | Ikhlaak E Hasna
+                </Text>
                 <View
                   style={{
                     flexDirection: 'row',
-                    justifyContent: 'flex-start',
-                    marginTop: 10,
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
                   }}>
-                  <Icon name="clock" type="evilicon" color="#9D9D9D" />
-                  <Text style={{ marginLeft: 5, color: '#9D9D9D' }}>
-                    standard 10 min ago
-                  </Text>
-                  <Text style={{ color: '#9D9D9D', marginLeft: 5 }}>|</Text>
-                  <Text
+                  <View
                     style={{
-                      // color: '#9D9D9D',
-                      marginLeft: 5,
-                      color: 'rgba(221, 75, 57, 1)',
+                      flexDirection: 'row',
+                      justifyContent: 'flex-start',
+                      marginTop: 10,
                     }}>
-                    Live
-                  </Text>
+                    <Icon name="clock" type="evilicon" color="#9D9D9D" />
+                    <Text style={{ marginLeft: 5, color: '#9D9D9D' }}>
+                      standard 10 min ago
+                    </Text>
+                    <Text style={{ color: '#9D9D9D', marginLeft: 5 }}>|</Text>
+                    <Text
+                      style={{
+                        // color: '#9D9D9D',
+                        marginLeft: 5,
+                        color: 'rgba(221, 75, 57, 1)',
+                      }}>
+                      Live
+                    </Text>
+                  </View>
+                  <TouchableOpacity
+                    onPress={() =>
+                      navigation.navigate(CONSTANT.App.screenNames.liveStream)
+                    }>
+                    <Text
+                      style={{
+                        color: '#A8C829',
+                        // fontWeight: '600',
+                        fontSize: 16,
+                        // bottom: 10,
+                        // height: 17,
+                        marginRight: 10,
+                      }}>
+                      Watch Now
+                    </Text>
+                  </TouchableOpacity>
                 </View>
-                <TouchableOpacity
-                  onPress={() =>
-                    navigation.navigate(CONSTANT.App.screenNames.liveStream)
-                  }>
-                  <Text
-                    style={{
-                      color: '#A8C829',
-                      // fontWeight: '600',
-                      fontSize: 16,
-                      // bottom: 10,
-                      // height: 17,
-                      marginRight: 10,
-                    }}>
-                    Watch Now
-                  </Text>
-                </TouchableOpacity>
               </View>
+            </TouchableOpacity>
+
+
+            <View style={{ marginTop: 20, marginLeft: 10 }}>
+              <Text
+                style={{
+                  fontSize: 24,
+                  // fontWeight: '800',
+                  lineHeight: 4,
+                  color: '#ffff',
+                  paddingTop: 25,
+                  // top: '4%',
+                }}>
+                Donate Us
+              </Text>
             </View>
-          </TouchableOpacity>
+            <View style={{ marginTop: 5 }}>
+              <Text
+                style={{
+                  color: '#9D9D9D',
+                  alignItems: 'stretch',
+                  fontSize: 14,
+                  lineHeight: 17,
+                  marginLeft: 10,
+                  marginBottom: 20,
+                }}>
+                Lorem Ipsum is simply dummy text of the printing
+              </Text>
+            </View>
 
-          
-          <View style={{ marginTop: 20, marginLeft: 10 }}>
-            <Text
-              style={{
-                fontSize: 24,
-                // fontWeight: '800',
-                lineHeight: 4,
-                color: '#ffff',
-                paddingTop: 25,
-                // top: '4%',
-              }}>
-              Donate Us
-            </Text>
+            <CustomButton
+              variant={'filled'}
+              title={'Donate now'}
+              style={{ marginTop: -6 }}
+              onPress={() => Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB')}
+            />
+
           </View>
-          <View style={{ marginTop: 5 }}>
-            <Text
-              style={{
-                color: '#9D9D9D',
-                alignItems: 'stretch',
-                fontSize: 14,
-                lineHeight: 17,
-                marginLeft: 10,
-                marginBottom: 20,
-              }}>
-              Lorem Ipsum is simply dummy text of the printing
-            </Text>
-          </View>
-
-          <CustomButton
-            variant={'filled'}
-            title={'Donate now'}
-            style={{ marginTop: -6 }}
-            onPress={() => Linking.openURL('https://www.iatspayments.com/saaura/PA7849312A6546B5AB')}
-          />
-
-        </View>
-      </ScrollView>
-    </BackgroundImage>
+        </ScrollView>
+      </BackgroundImage>
+    </SafeAreaView>
   );
 };
 
@@ -840,7 +842,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     marginTop: 7,
-    marginLeft:15,
+    marginLeft: 15,
   },
 });
 export default HomeScreen;

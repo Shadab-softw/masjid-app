@@ -92,53 +92,34 @@ const PrayerScreen = ({ route }) => {
   };
 
   // console.log(route.params)
-  const calendar = () => {
-
-    let options = {
-      date: new Date(),
-      minDate: new Date(new Date().getTime() - 1 * 30 * 24 * 60 * 60 * 1000),
-      maxDate: new Date(new Date().getTime() + 1 * 30 * 24 * 60 * 60 * 1000),
-    };
-    let stringOptions = {
-      date: activHijri,
-      minDate: '01-01-1400',
-      maxDate: '29-12-1500',
-    };
+  const showCalendar = () => {
+    let options = { date: new Date(), minDate: new Date(new Date().getTime() - (1 * 30 * 24 * 60 * 60 * 1000)), maxDate: new Date(new Date().getTime() + (1 * 30 * 24 * 60 * 60 * 1000)) };
+    // let stringOptions = { date: "27-07-1438", minDate: "01-01-1400", maxDate: "29-08-1738" };
     //mode:"no_arrows" hide the arrows at the bar of the calendar
     //weekDayLabels, override the default day labels at the calendar
-    let moreOptions = {
-      date: activHijri,
-      minDate: '01-01-1400',
-      maxDate: '29-12-1500',
-      mode: 'no_arrows',
-      weekDayLabels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-    };
-    //accepts option  dates with date objects or strings in the following format ['dd-MM-yyyy']
-    HijriDatePickerAndroid.open(stringOptions).then(function (result) {
+    let moreOptions = { date: "27-7-1438", minDate: "25-6-1438", maxDate: "29-8-1438", mode: "no_arrows", weekDayLabels: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"] };
+    //accepts option  dates with date objects or strings in the following format ['dd-MM-yyyy'] 
+    HijriDatePickerAndroid.open(options).then(function (result) {
       if (result.action == HijriDatePickerAndroid.dismissedAction) {
-        console.warn('Dismissed');
+        console.warn("Dismissed");
       } else {
         let { year, day, month } = result;
-        console.warn(
-          'Hijri Date: ' + day + '/' + (month + 1) + '/' + year + '/',
-        );
+        // console.warn("Hijri Date: " + day + "/" + (month + 1) + "/" + year + "/");
       }
-    });
+    }).catch(e => console.log("errr open in", e));
 
     //convert string Hijri date ['dd-MM-yyyy'] to a gregorian timestamp
-    HijriDatePickerAndroid.convertHijriDateToGregorianDate('12-7-1438').then(
-      function (result) {
-        console.warn('Gregorian Timestamp' + JSON.stringify(result));
-      },
-    );
+    HijriDatePickerAndroid.convertHijriDateToGregorianDate("12-7-1438").then(function (result) {
+      // console.warn("Gregorian Timestamp" + JSON.stringify(result));
+
+    }).catch(e => console.log("errr convertion", e));
+
 
     //convert gregorian date object to hijri {year,month,day}
-    HijriDatePickerAndroid.convertGregorianDateToHijriDate(new Date()).then(
-      function ({ year, day, month }) {
-        console.warn('Hijri Date: ' + day + '/' + month + 1 + '/' + year + '/');
-      },
-    );
-  };
+    HijriDatePickerAndroid.convertGregorianDateToHijriDate(new Date()).then(function ({ year, day, month }) {
+      // console.warn("Hijri Date: " + day + "/" + month + 1 + "/" + year + "/");
+    })
+  }
 
 
   const rightHandler = () => {
@@ -183,7 +164,7 @@ const PrayerScreen = ({ route }) => {
             Salah Time
           </Text>
 
-          <TouchableOpacity onPress={calendar}>
+          <TouchableOpacity onPress={showCalendar}>
             <AntDesign
               name="calendar"
               style={{ color: '#a7c829', fontSize: 22 }}
@@ -321,7 +302,7 @@ export default PrayerScreen;
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 20,
+    padding: 20,
   },
   showAll: {
     flexDirection: 'row',

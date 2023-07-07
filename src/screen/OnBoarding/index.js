@@ -29,17 +29,13 @@ const { width, height } = Dimensions.get('window');
 
 const OnBoardingScreen = ({ navigation }) => {
   const { directLogin } = useContext(AuthContext)
-  console.log("directlogin", directLogin)
   const { width, height } = Dimensions.get('window');
   const [layoutStyle, setLayoutStyle] = React.useState({
     width: width,
     height: '40%',
   });
 
-  // useEffect(() => {
-  // }, []);
 
-  const onPress = () => { };
   return (
     <BgImage>
       <View style={styles.container}>

@@ -61,7 +61,7 @@ const CunsultationScreen = ({ navigation, route }) => {
     })
 
     const response = await result.json()
-    console.log("result", response.access_token)
+
     if (response.access_token) {
 
       const data = {
